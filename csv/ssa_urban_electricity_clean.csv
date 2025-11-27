@@ -1,0 +1,1633 @@
+Country,Country Code,Year,Urban_Electricity
+Angola,AGO,1990,
+Burundi,BDI,1990,
+Benin,BEN,1990,
+Burkina Faso,BFA,1990,
+Botswana,BWA,1990,
+Central African Republic,CAF,1990,
+Côte d'Ivoire,CIV,1990,
+Cameroon,CMR,1990,
+Democratic Republic of the Congo,COD,1990,
+Congo,COG,1990,
+Comoros,COM,1990,
+Cabo Verde,CPV,1990,
+Djibouti,DJI,1990,
+Eritrea,ERI,1990,
+Ethiopia,ETH,1990,
+Gabon,GAB,1990,
+Ghana,GHA,1990,
+Guinea,GIN,1990,
+Gambia,GMB,1990,
+Guinea-Bissau,GNB,1990,
+Equatorial Guinea,GNQ,1990,
+Kenya,KEN,1990,
+Liberia,LBR,1990,
+Lesotho,LSO,1990,
+Madagascar,MDG,1990,
+Mali,MLI,1990,
+Mozambique,MOZ,1990,
+Mauritania,MRT,1990,
+Mauritius,MUS,1990,100.0
+Malawi,MWI,1990,
+Namibia,NAM,1990,
+Niger,NER,1990,
+Nigeria,NGA,1990,82.4
+Rwanda,RWA,1990,
+Sudan,SDN,1990,66.1
+Senegal,SEN,1990,
+Sierra Leone,SLE,1990,
+South Sudan,SSD,1990,
+Sao Tome and Principe,STP,1990,
+Eswatini,SWZ,1990,
+Seychelles,SYC,1990,
+Chad,TCD,1990,
+Togo,TGO,1990,
+Tanzania,TZA,1990,
+Uganda,UGA,1990,
+South Africa,ZAF,1990,
+Zambia,ZMB,1990,34.7
+Zimbabwe,ZWE,1990,
+Angola,AGO,1991,
+Burundi,BDI,1991,
+Benin,BEN,1991,
+Burkina Faso,BFA,1991,
+Botswana,BWA,1991,17.5
+Central African Republic,CAF,1991,
+Côte d'Ivoire,CIV,1991,
+Cameroon,CMR,1991,63.0
+Democratic Republic of the Congo,COD,1991,
+Congo,COG,1991,
+Comoros,COM,1991,
+Cabo Verde,CPV,1991,
+Djibouti,DJI,1991,
+Eritrea,ERI,1991,
+Ethiopia,ETH,1991,
+Gabon,GAB,1991,
+Ghana,GHA,1991,
+Guinea,GIN,1991,
+Gambia,GMB,1991,
+Guinea-Bissau,GNB,1991,
+Equatorial Guinea,GNQ,1991,
+Kenya,KEN,1991,
+Liberia,LBR,1991,
+Lesotho,LSO,1991,
+Madagascar,MDG,1991,
+Mali,MLI,1991,
+Mozambique,MOZ,1991,
+Mauritania,MRT,1991,
+Mauritius,MUS,1991,100.0
+Malawi,MWI,1991,
+Namibia,NAM,1991,
+Niger,NER,1991,
+Nigeria,NGA,1991,83.7839584350586
+Rwanda,RWA,1991,
+Sudan,SDN,1991,63.8322257995605
+Senegal,SEN,1991,
+Sierra Leone,SLE,1991,
+South Sudan,SSD,1991,
+Sao Tome and Principe,STP,1991,
+Eswatini,SWZ,1991,
+Seychelles,SYC,1991,
+Chad,TCD,1991,
+Togo,TGO,1991,
+Tanzania,TZA,1991,
+Uganda,UGA,1991,33.6
+South Africa,ZAF,1991,
+Zambia,ZMB,1991,35.1093902587891
+Zimbabwe,ZWE,1991,
+Angola,AGO,1992,
+Burundi,BDI,1992,
+Benin,BEN,1992,
+Burkina Faso,BFA,1992,
+Botswana,BWA,1992,18.3537273406982
+Central African Republic,CAF,1992,
+Côte d'Ivoire,CIV,1992,
+Cameroon,CMR,1992,70.0741653442383
+Democratic Republic of the Congo,COD,1992,
+Congo,COG,1992,
+Comoros,COM,1992,
+Cabo Verde,CPV,1992,
+Djibouti,DJI,1992,
+Eritrea,ERI,1992,
+Ethiopia,ETH,1992,
+Gabon,GAB,1992,
+Ghana,GHA,1992,
+Guinea,GIN,1992,
+Gambia,GMB,1992,
+Guinea-Bissau,GNB,1992,
+Equatorial Guinea,GNQ,1992,
+Kenya,KEN,1992,
+Liberia,LBR,1992,
+Lesotho,LSO,1992,
+Madagascar,MDG,1992,46.9
+Mali,MLI,1992,
+Mozambique,MOZ,1992,
+Mauritania,MRT,1992,
+Mauritius,MUS,1992,100.0
+Malawi,MWI,1992,19.8
+Namibia,NAM,1992,66.0
+Niger,NER,1992,26.7
+Nigeria,NGA,1992,83.8470993041992
+Rwanda,RWA,1992,31.1
+Sudan,SDN,1992,64.1226501464844
+Senegal,SEN,1992,
+Sierra Leone,SLE,1992,
+South Sudan,SSD,1992,
+Sao Tome and Principe,STP,1992,
+Eswatini,SWZ,1992,
+Seychelles,SYC,1992,
+Chad,TCD,1992,
+Togo,TGO,1992,
+Tanzania,TZA,1992,23.9
+Uganda,UGA,1992,32.1088714599609
+South Africa,ZAF,1992,
+Zambia,ZMB,1992,39.2
+Zimbabwe,ZWE,1992,85.4796600341797
+Angola,AGO,1993,
+Burundi,BDI,1993,
+Benin,BEN,1993,
+Burkina Faso,BFA,1993,29.4
+Botswana,BWA,1993,20.9881744384766
+Central African Republic,CAF,1993,
+Côte d'Ivoire,CIV,1993,
+Cameroon,CMR,1993,70.9762649536133
+Democratic Republic of the Congo,COD,1993,
+Congo,COG,1993,
+Comoros,COM,1993,
+Cabo Verde,CPV,1993,
+Djibouti,DJI,1993,
+Eritrea,ERI,1993,
+Ethiopia,ETH,1993,
+Gabon,GAB,1993,
+Ghana,GHA,1993,74.6
+Guinea,GIN,1993,
+Gambia,GMB,1993,38.8783531188965
+Guinea-Bissau,GNB,1993,
+Equatorial Guinea,GNQ,1993,
+Kenya,KEN,1993,42.5
+Liberia,LBR,1993,
+Lesotho,LSO,1993,
+Madagascar,MDG,1993,39.9817047119141
+Mali,MLI,1993,
+Mozambique,MOZ,1993,
+Mauritania,MRT,1993,
+Mauritius,MUS,1993,100.0
+Malawi,MWI,1993,19.0226917266846
+Namibia,NAM,1993,71.0
+Niger,NER,1993,31.8083744049072
+Nigeria,NGA,1993,83.9070816040039
+Rwanda,RWA,1993,18.0791263580322
+Sudan,SDN,1993,64.4099349975586
+Senegal,SEN,1993,58.6
+Sierra Leone,SLE,1993,
+South Sudan,SSD,1993,
+Sao Tome and Principe,STP,1993,
+Eswatini,SWZ,1993,
+Seychelles,SYC,1993,
+Chad,TCD,1993,
+Togo,TGO,1993,
+Tanzania,TZA,1993,22.2905502319336
+Uganda,UGA,1993,33.2691764831543
+South Africa,ZAF,1993,
+Zambia,ZMB,1993,37.5866508483887
+Zimbabwe,ZWE,1993,85.5194854736328
+Angola,AGO,1994,
+Burundi,BDI,1994,
+Benin,BEN,1994,
+Burkina Faso,BFA,1994,33.4402618408203
+Botswana,BWA,1994,23.616304397583
+Central African Republic,CAF,1994,
+Côte d'Ivoire,CIV,1994,69.7
+Cameroon,CMR,1994,71.8720397949219
+Democratic Republic of the Congo,COD,1994,
+Congo,COG,1994,
+Comoros,COM,1994,
+Cabo Verde,CPV,1994,
+Djibouti,DJI,1994,
+Eritrea,ERI,1994,
+Ethiopia,ETH,1994,
+Gabon,GAB,1994,
+Ghana,GHA,1994,74.6652145385742
+Guinea,GIN,1994,
+Gambia,GMB,1994,40.4431953430176
+Guinea-Bissau,GNB,1994,
+Equatorial Guinea,GNQ,1994,
+Kenya,KEN,1994,39.2203407287598
+Liberia,LBR,1994,
+Lesotho,LSO,1994,
+Madagascar,MDG,1994,41.1489906311035
+Mali,MLI,1994,
+Mozambique,MOZ,1994,
+Mauritania,MRT,1994,
+Mauritius,MUS,1994,100.0
+Malawi,MWI,1994,20.176736831665
+Namibia,NAM,1994,70.6857604980469
+Niger,NER,1994,33.0251121520996
+Nigeria,NGA,1994,83.9607467651367
+Rwanda,RWA,1994,20.3961029052734
+Sudan,SDN,1994,64.6909255981445
+Senegal,SEN,1994,65.7216644287109
+Sierra Leone,SLE,1994,
+South Sudan,SSD,1994,
+Sao Tome and Principe,STP,1994,
+Eswatini,SWZ,1994,
+Seychelles,SYC,1994,98.8616714477539
+Chad,TCD,1994,
+Togo,TGO,1994,
+Tanzania,TZA,1994,23.8663482666016
+Uganda,UGA,1994,34.4231605529785
+South Africa,ZAF,1994,
+Zambia,ZMB,1994,38.8173828125
+Zimbabwe,ZWE,1994,80.4
+Angola,AGO,1995,
+Burundi,BDI,1995,
+Benin,BEN,1995,
+Burkina Faso,BFA,1995,34.6333847045898
+Botswana,BWA,1995,26.234956741333
+Central African Republic,CAF,1995,8.0
+Côte d'Ivoire,CIV,1995,78.3763961791992
+Cameroon,CMR,1995,72.7583389282227
+Democratic Republic of the Congo,COD,1995,
+Congo,COG,1995,
+Comoros,COM,1995,
+Cabo Verde,CPV,1995,
+Djibouti,DJI,1995,
+Eritrea,ERI,1995,80.6
+Ethiopia,ETH,1995,
+Gabon,GAB,1995,
+Ghana,GHA,1995,75.3336563110352
+Guinea,GIN,1995,
+Gambia,GMB,1995,41.9985618591309
+Guinea-Bissau,GNB,1995,
+Equatorial Guinea,GNQ,1995,
+Kenya,KEN,1995,41.0309638977051
+Liberia,LBR,1995,
+Lesotho,LSO,1995,
+Madagascar,MDG,1995,42.3068008422852
+Mali,MLI,1995,
+Mozambique,MOZ,1995,
+Mauritania,MRT,1995,
+Mauritius,MUS,1995,100.0
+Malawi,MWI,1995,21.3213043212891
+Namibia,NAM,1995,70.8737335205078
+Niger,NER,1995,34.2323722839355
+Nigeria,NGA,1995,84.0049285888672
+Rwanda,RWA,1995,22.7036018371582
+Sudan,SDN,1995,64.9624786376953
+Senegal,SEN,1995,66.8891525268555
+Sierra Leone,SLE,1995,
+South Sudan,SSD,1995,
+Sao Tome and Principe,STP,1995,
+Eswatini,SWZ,1995,
+Seychelles,SYC,1995,98.9373321533203
+Chad,TCD,1995,
+Togo,TGO,1995,
+Tanzania,TZA,1995,25.4326667785645
+Uganda,UGA,1995,40.2
+South Africa,ZAF,1995,
+Zambia,ZMB,1995,40.0386352539063
+Zimbabwe,ZWE,1995,85.577018737793
+Angola,AGO,1996,
+Burundi,BDI,1996,
+Benin,BEN,1996,34.4
+Burkina Faso,BFA,1996,35.8138656616211
+Botswana,BWA,1996,28.840970993042
+Central African Republic,CAF,1996,9.1618595123291
+Côte d'Ivoire,CIV,1996,79.044189453125
+Cameroon,CMR,1996,73.6319961547852
+Democratic Republic of the Congo,COD,1996,
+Congo,COG,1996,
+Comoros,COM,1996,51.8
+Cabo Verde,CPV,1996,
+Djibouti,DJI,1996,53.5521049499512
+Eritrea,ERI,1996,79.9806365966797
+Ethiopia,ETH,1996,
+Gabon,GAB,1996,
+Ghana,GHA,1996,75.9894561767578
+Guinea,GIN,1996,
+Gambia,GMB,1996,43.5412864685059
+Guinea-Bissau,GNB,1996,
+Equatorial Guinea,GNQ,1996,
+Kenya,KEN,1996,42.8289489746094
+Liberia,LBR,1996,
+Lesotho,LSO,1996,
+Madagascar,MDG,1996,43.451976776123
+Mali,MLI,1996,21.5
+Mozambique,MOZ,1996,
+Mauritania,MRT,1996,
+Mauritius,MUS,1996,100.0
+Malawi,MWI,1996,22.4532318115234
+Namibia,NAM,1996,71.0490646362305
+Niger,NER,1996,35.4269943237305
+Nigeria,NGA,1996,84.0364761352539
+Rwanda,RWA,1996,24.998462677002
+Sudan,SDN,1996,65.2214584350586
+Senegal,SEN,1996,68.0439987182617
+Sierra Leone,SLE,1996,
+South Sudan,SSD,1996,
+Sao Tome and Principe,STP,1996,
+Eswatini,SWZ,1996,
+Seychelles,SYC,1996,99.0003433227539
+Chad,TCD,1996,
+Togo,TGO,1996,
+Tanzania,TZA,1996,35.5
+Uganda,UGA,1996,36.699535369873
+South Africa,ZAF,1996,85.2983245849609
+Zambia,ZMB,1996,44.1
+Zimbabwe,ZWE,1996,85.5884094238281
+Angola,AGO,1997,
+Burundi,BDI,1997,
+Benin,BEN,1997,44.7813873291016
+Burkina Faso,BFA,1997,36.9785537719727
+Botswana,BWA,1997,31.431188583374
+Central African Republic,CAF,1997,10.1394186019897
+Côte d'Ivoire,CIV,1997,79.6961898803711
+Cameroon,CMR,1997,74.489860534668
+Democratic Republic of the Congo,COD,1997,
+Congo,COG,1997,
+Comoros,COM,1997,59.0517616271973
+Cabo Verde,CPV,1997,
+Djibouti,DJI,1997,54.3137550354004
+Eritrea,ERI,1997,79.797737121582
+Ethiopia,ETH,1997,
+Gabon,GAB,1997,
+Ghana,GHA,1997,76.6294631958008
+Guinea,GIN,1997,
+Gambia,GMB,1997,45.0682182312012
+Guinea-Bissau,GNB,1997,
+Equatorial Guinea,GNQ,1997,
+Kenya,KEN,1997,44.6111373901367
+Liberia,LBR,1997,
+Lesotho,LSO,1997,
+Madagascar,MDG,1997,38.1
+Mali,MLI,1997,24.6865520477295
+Mozambique,MOZ,1997,25.8
+Mauritania,MRT,1997,
+Mauritius,MUS,1997,100.0
+Malawi,MWI,1997,23.5693645477295
+Namibia,NAM,1997,71.2086029052734
+Niger,NER,1997,36.6058197021484
+Nigeria,NGA,1997,84.0522232055664
+Rwanda,RWA,1997,27.2775268554688
+Sudan,SDN,1997,65.4646987915039
+Senegal,SEN,1997,68.9
+Sierra Leone,SLE,1997,
+South Sudan,SSD,1997,
+Sao Tome and Principe,STP,1997,
+Eswatini,SWZ,1997,
+Seychelles,SYC,1997,99.0475692749023
+Chad,TCD,1997,9.4
+Togo,TGO,1997,
+Tanzania,TZA,1997,28.5242328643799
+Uganda,UGA,1997,37.8156089782715
+South Africa,ZAF,1997,85.4151077270508
+Zambia,ZMB,1997,42.440071105957
+Zimbabwe,ZWE,1997,85.5840072631836
+Angola,AGO,1998,
+Burundi,BDI,1998,60.6
+Benin,BEN,1998,45.7014350891113
+Burkina Faso,BFA,1998,38.1242828369141
+Botswana,BWA,1998,34.0024490356445
+Central African Republic,CAF,1998,11.0980224609375
+Côte d'Ivoire,CIV,1998,80.329231262207
+Cameroon,CMR,1998,79.0
+Democratic Republic of the Congo,COD,1998,
+Congo,COG,1998,
+Comoros,COM,1998,60.8158149719238
+Cabo Verde,CPV,1998,
+Djibouti,DJI,1998,55.0564498901367
+Eritrea,ERI,1998,79.5958786010742
+Ethiopia,ETH,1998,
+Gabon,GAB,1998,
+Ghana,GHA,1998,82.4
+Guinea,GIN,1998,
+Gambia,GMB,1998,46.5761909484863
+Guinea-Bissau,GNB,1998,
+Equatorial Guinea,GNQ,1998,
+Kenya,KEN,1998,47.5
+Liberia,LBR,1998,
+Lesotho,LSO,1998,
+Madagascar,MDG,1998,45.6917724609375
+Mali,MLI,1998,27.6966228485107
+Mozambique,MOZ,1998,18.1166152954102
+Mauritania,MRT,1998,
+Mauritius,MUS,1998,100.0
+Malawi,MWI,1998,24.6665420532227
+Namibia,NAM,1998,71.3491744995117
+Niger,NER,1998,36.5
+Nigeria,NGA,1998,84.0490188598633
+Rwanda,RWA,1998,29.5376358032227
+Sudan,SDN,1998,65.689079284668
+Senegal,SEN,1998,70.3031387329102
+Sierra Leone,SLE,1998,
+South Sudan,SSD,1998,
+Sao Tome and Principe,STP,1998,
+Eswatini,SWZ,1998,
+Seychelles,SYC,1998,99.0758285522461
+Chad,TCD,1998,7.74023675918579
+Togo,TGO,1998,41.2
+Tanzania,TZA,1998,30.0431613922119
+Uganda,UGA,1998,38.9127235412598
+South Africa,ZAF,1998,84.2
+Zambia,ZMB,1998,48.0
+Zimbabwe,ZWE,1998,85.5606384277344
+Angola,AGO,1999,
+Burundi,BDI,1999,50.5398025512695
+Benin,BEN,1999,46.6010475158691
+Burkina Faso,BFA,1999,39.7
+Botswana,BWA,1999,36.5532760620117
+Central African Republic,CAF,1999,12.0361928939819
+Côte d'Ivoire,CIV,1999,85.9
+Cameroon,CMR,1999,76.1472473144531
+Democratic Republic of the Congo,COD,1999,
+Congo,COG,1999,
+Comoros,COM,1999,62.5594367980957
+Cabo Verde,CPV,1999,
+Djibouti,DJI,1999,55.7787132263184
+Eritrea,ERI,1999,79.3735885620117
+Ethiopia,ETH,1999,
+Gabon,GAB,1999,
+Ghana,GHA,1999,77.8511276245117
+Guinea,GIN,1999,53.8
+Gambia,GMB,1999,48.0637321472168
+Guinea-Bissau,GNB,1999,
+Equatorial Guinea,GNQ,1999,
+Kenya,KEN,1999,48.1171684265137
+Liberia,LBR,1999,
+Lesotho,LSO,1999,
+Madagascar,MDG,1999,46.7817573547363
+Mali,MLI,1999,30.68625831604
+Mozambique,MOZ,1999,20.6718463897705
+Mauritania,MRT,1999,
+Mauritius,MUS,1999,99.9960632324219
+Malawi,MWI,1999,25.7432842254639
+Namibia,NAM,1999,71.4693222045898
+Niger,NER,1999,38.9051246643066
+Nigeria,NGA,1999,84.3
+Rwanda,RWA,1999,31.7773094177246
+Sudan,SDN,1999,65.8931121826172
+Senegal,SEN,1999,72.8
+Sierra Leone,SLE,1999,
+South Sudan,SSD,1999,
+Sao Tome and Principe,STP,1999,
+Eswatini,SWZ,1999,
+Seychelles,SYC,1999,99.0836639404297
+Chad,TCD,1999,8.9199914932251
+Togo,TGO,1999,42.9995880126953
+Tanzania,TZA,1999,27.3
+Uganda,UGA,1999,39.9894065856934
+South Africa,ZAF,1999,85.5903244018555
+Zambia,ZMB,1999,44.7673645019531
+Zimbabwe,ZWE,1999,87.4
+Angola,AGO,2000,44.9
+Burundi,BDI,2000,49.6
+Benin,BEN,2000,47.5
+Burkina Faso,BFA,2000,40.4
+Botswana,BWA,2000,39.2
+Central African Republic,CAF,2000,15.6
+Côte d'Ivoire,CIV,2000,81.6
+Cameroon,CMR,2000,79.0
+Democratic Republic of the Congo,COD,2000,20.0
+Congo,COG,2000,46.2
+Comoros,COM,2000,64.4
+Cabo Verde,CPV,2000,81.9
+Djibouti,DJI,2000,56.5
+Eritrea,ERI,2000,79.2
+Ethiopia,ETH,2000,76.2
+Gabon,GAB,2000,90.2
+Ghana,GHA,2000,80.5
+Guinea,GIN,2000,55.9
+Gambia,GMB,2000,51.2
+Guinea-Bissau,GNB,2000,23.8
+Equatorial Guinea,GNQ,2000,94.5
+Kenya,KEN,2000,49.9
+Liberia,LBR,2000,
+Lesotho,LSO,2000,13.6
+Madagascar,MDG,2000,47.9
+Mali,MLI,2000,33.8
+Mozambique,MOZ,2000,23.3
+Mauritania,MRT,2000,45.3
+Mauritius,MUS,2000,100.0
+Malawi,MWI,2000,28.7
+Namibia,NAM,2000,73.2
+Niger,NER,2000,40.7
+Nigeria,NGA,2000,83.8
+Rwanda,RWA,2000,38.9
+Sudan,SDN,2000,61.6
+Senegal,SEN,2000,74.6
+Sierra Leone,SLE,2000,23.6
+South Sudan,SSD,2000,8.1
+Sao Tome and Principe,STP,2000,64.1
+Eswatini,SWZ,2000,54.8
+Seychelles,SYC,2000,98.7
+Chad,TCD,2000,10.1
+Togo,TGO,2000,38.5
+Tanzania,TZA,2000,32.7
+Uganda,UGA,2000,41.0
+South Africa,ZAF,2000,85.6
+Zambia,ZMB,2000,44.1
+Zimbabwe,ZWE,2000,85.4
+Angola,AGO,2001,30.0
+Burundi,BDI,2001,49.9
+Benin,BEN,2001,49.6
+Burkina Faso,BFA,2001,41.5
+Botswana,BWA,2001,37.0
+Central African Republic,CAF,2001,13.9
+Côte d'Ivoire,CIV,2001,82.1
+Cameroon,CMR,2001,84.0
+Democratic Republic of the Congo,COD,2001,23.9
+Congo,COG,2001,47.1
+Comoros,COM,2001,66.0
+Cabo Verde,CPV,2001,82.5
+Djibouti,DJI,2001,57.2
+Eritrea,ERI,2001,78.9
+Ethiopia,ETH,2001,79.3
+Gabon,GAB,2001,91.4
+Ghana,GHA,2001,78.9
+Guinea,GIN,2001,57.5
+Gambia,GMB,2001,51.1
+Guinea-Bissau,GNB,2001,24.0
+Equatorial Guinea,GNQ,2001,94.3
+Kenya,KEN,2001,51.6
+Liberia,LBR,2001,
+Lesotho,LSO,2001,18.1
+Madagascar,MDG,2001,42.1
+Mali,MLI,2001,37.0
+Mozambique,MOZ,2001,20.1
+Mauritania,MRT,2001,49.7
+Mauritius,MUS,2001,99.9
+Malawi,MWI,2001,27.8
+Namibia,NAM,2001,71.6
+Niger,NER,2001,41.1
+Nigeria,NGA,2001,83.8
+Rwanda,RWA,2001,35.9
+Sudan,SDN,2001,61.6
+Senegal,SEN,2001,73.6
+Sierra Leone,SLE,2001,25.0
+South Sudan,SSD,2001,8.3
+Sao Tome and Principe,STP,2001,64.0
+Eswatini,SWZ,2001,56.4
+Seychelles,SYC,2001,98.7
+Chad,TCD,2001,11.2
+Togo,TGO,2001,47.9
+Tanzania,TZA,2001,34.3
+Uganda,UGA,2001,43.9
+South Africa,ZAF,2001,85.7
+Zambia,ZMB,2001,47.0
+Zimbabwe,ZWE,2001,85.3
+Angola,AGO,2002,47.7
+Burundi,BDI,2002,50.2
+Benin,BEN,2002,49.2
+Burkina Faso,BFA,2002,42.6
+Botswana,BWA,2002,44.2
+Central African Republic,CAF,2002,14.8
+Côte d'Ivoire,CIV,2002,82.7
+Cameroon,CMR,2002,78.5
+Democratic Republic of the Congo,COD,2002,25.4
+Congo,COG,2002,48.0
+Comoros,COM,2002,74.6
+Cabo Verde,CPV,2002,81.3
+Djibouti,DJI,2002,56.9
+Eritrea,ERI,2002,78.3
+Ethiopia,ETH,2002,79.9
+Gabon,GAB,2002,91.7
+Ghana,GHA,2002,79.5
+Guinea,GIN,2002,59.0
+Gambia,GMB,2002,52.5
+Guinea-Bissau,GNB,2002,24.3
+Equatorial Guinea,GNQ,2002,94.0
+Kenya,KEN,2002,53.3
+Liberia,LBR,2002,
+Lesotho,LSO,2002,21.2
+Madagascar,MDG,2002,50.0
+Mali,MLI,2002,39.7
+Mozambique,MOZ,2002,28.3
+Mauritania,MRT,2002,49.4
+Mauritius,MUS,2002,100.0
+Malawi,MWI,2002,28.9
+Namibia,NAM,2002,71.7
+Niger,NER,2002,42.3
+Nigeria,NGA,2002,83.8
+Rwanda,RWA,2002,38.2
+Sudan,SDN,2002,61.7
+Senegal,SEN,2002,74.2
+Sierra Leone,SLE,2002,26.4
+South Sudan,SSD,2002,8.4
+Sao Tome and Principe,STP,2002,64.6
+Eswatini,SWZ,2002,58.0
+Seychelles,SYC,2002,98.7
+Chad,TCD,2002,12.4
+Togo,TGO,2002,50.2
+Tanzania,TZA,2002,35.9
+Uganda,UGA,2002,39.3
+South Africa,ZAF,2002,85.7
+Zambia,ZMB,2002,45.1
+Zimbabwe,ZWE,2002,85.3
+Angola,AGO,2003,49.0
+Burundi,BDI,2003,50.5
+Benin,BEN,2003,50.1
+Burkina Faso,BFA,2003,52.4
+Botswana,BWA,2003,46.7
+Central African Republic,CAF,2003,15.7
+Côte d'Ivoire,CIV,2003,83.3
+Cameroon,CMR,2003,79.3
+Democratic Republic of the Congo,COD,2003,26.9
+Congo,COG,2003,49.0
+Comoros,COM,2003,69.4
+Cabo Verde,CPV,2003,83.6
+Djibouti,DJI,2003,58.6
+Eritrea,ERI,2003,78.5
+Ethiopia,ETH,2003,80.6
+Gabon,GAB,2003,92.0
+Ghana,GHA,2003,76.9
+Guinea,GIN,2003,60.6
+Gambia,GMB,2003,54.0
+Guinea-Bissau,GNB,2003,24.6
+Equatorial Guinea,GNQ,2003,93.8
+Kenya,KEN,2003,50.2
+Liberia,LBR,2003,
+Lesotho,LSO,2003,24.3
+Madagascar,MDG,2003,52.7
+Mali,MLI,2003,42.6
+Mozambique,MOZ,2003,25.0
+Mauritania,MRT,2003,51.5
+Mauritius,MUS,2003,99.7
+Malawi,MWI,2003,37.1
+Namibia,NAM,2003,71.8
+Niger,NER,2003,43.4
+Nigeria,NGA,2003,84.9
+Rwanda,RWA,2003,40.5
+Sudan,SDN,2003,61.7
+Senegal,SEN,2003,75.7
+Sierra Leone,SLE,2003,27.7
+South Sudan,SSD,2003,8.6
+Sao Tome and Principe,STP,2003,65.2
+Eswatini,SWZ,2003,59.6
+Seychelles,SYC,2003,98.7
+Chad,TCD,2003,13.5
+Togo,TGO,2003,52.6
+Tanzania,TZA,2003,36.5
+Uganda,UGA,2003,44.2
+South Africa,ZAF,2003,87.7
+Zambia,ZMB,2003,48.0
+Zimbabwe,ZWE,2003,85.2
+Angola,AGO,2004,50.4
+Burundi,BDI,2004,50.8
+Benin,BEN,2004,51.0
+Burkina Faso,BFA,2004,44.8
+Botswana,BWA,2004,49.2
+Central African Republic,CAF,2004,16.6
+Côte d'Ivoire,CIV,2004,83.9
+Cameroon,CMR,2004,77.1
+Democratic Republic of the Congo,COD,2004,28.4
+Congo,COG,2004,49.9
+Comoros,COM,2004,71.1
+Cabo Verde,CPV,2004,84.2
+Djibouti,DJI,2004,59.3
+Eritrea,ERI,2004,78.3
+Ethiopia,ETH,2004,81.2
+Gabon,GAB,2004,92.3
+Ghana,GHA,2004,80.7
+Guinea,GIN,2004,62.1
+Gambia,GMB,2004,55.4
+Guinea-Bissau,GNB,2004,24.9
+Equatorial Guinea,GNQ,2004,93.5
+Kenya,KEN,2004,56.7
+Liberia,LBR,2004,
+Lesotho,LSO,2004,26.2
+Madagascar,MDG,2004,52.0
+Mali,MLI,2004,45.6
+Mozambique,MOZ,2004,33.4
+Mauritania,MRT,2004,53.5
+Mauritius,MUS,2004,99.6
+Malawi,MWI,2004,30.2
+Namibia,NAM,2004,71.9
+Niger,NER,2004,44.5
+Nigeria,NGA,2004,83.8
+Rwanda,RWA,2004,42.9
+Sudan,SDN,2004,61.7
+Senegal,SEN,2004,76.7
+Sierra Leone,SLE,2004,29.1
+South Sudan,SSD,2004,8.8
+Sao Tome and Principe,STP,2004,65.7
+Eswatini,SWZ,2004,61.2
+Seychelles,SYC,2004,98.7
+Chad,TCD,2004,16.4
+Togo,TGO,2004,55.0
+Tanzania,TZA,2004,38.9
+Uganda,UGA,2004,45.3
+South Africa,ZAF,2004,85.7
+Zambia,ZMB,2004,47.6
+Zimbabwe,ZWE,2004,85.2
+Angola,AGO,2005,51.8
+Burundi,BDI,2005,45.0
+Benin,BEN,2005,51.9
+Burkina Faso,BFA,2005,45.9
+Botswana,BWA,2005,51.7
+Central African Republic,CAF,2005,17.6
+Côte d'Ivoire,CIV,2005,86.4
+Cameroon,CMR,2005,80.9
+Democratic Republic of the Congo,COD,2005,30.0
+Congo,COG,2005,50.8
+Comoros,COM,2005,72.8
+Cabo Verde,CPV,2005,85.0
+Djibouti,DJI,2005,60.0
+Eritrea,ERI,2005,78.1
+Ethiopia,ETH,2005,85.7
+Gabon,GAB,2005,93.2
+Ghana,GHA,2005,78.4
+Guinea,GIN,2005,63.8
+Gambia,GMB,2005,54.4
+Guinea-Bissau,GNB,2005,25.2
+Equatorial Guinea,GNQ,2005,93.3
+Kenya,KEN,2005,58.5
+Liberia,LBR,2005,
+Lesotho,LSO,2005,30.4
+Madagascar,MDG,2005,53.1
+Mali,MLI,2005,48.6
+Mozambique,MOZ,2005,35.9
+Mauritania,MRT,2005,41.6
+Mauritius,MUS,2005,99.6
+Malawi,MWI,2005,32.1
+Namibia,NAM,2005,72.1
+Niger,NER,2005,45.7
+Nigeria,NGA,2005,83.8
+Rwanda,RWA,2005,25.1
+Sudan,SDN,2005,61.8
+Senegal,SEN,2005,80.4
+Sierra Leone,SLE,2005,35.9
+South Sudan,SSD,2005,9.0
+Sao Tome and Principe,STP,2005,66.4
+Eswatini,SWZ,2005,62.9
+Seychelles,SYC,2005,98.7
+Chad,TCD,2005,15.9
+Togo,TGO,2005,57.4
+Tanzania,TZA,2005,40.6
+Uganda,UGA,2005,49.0
+South Africa,ZAF,2005,85.8
+Zambia,ZMB,2005,51.6
+Zimbabwe,ZWE,2005,85.1
+Angola,AGO,2006,53.3
+Burundi,BDI,2006,51.5
+Benin,BEN,2006,56.6
+Burkina Faso,BFA,2006,47.0
+Botswana,BWA,2006,54.3
+Central African Republic,CAF,2006,20.3
+Côte d'Ivoire,CIV,2006,91.2
+Cameroon,CMR,2006,73.0
+Democratic Republic of the Congo,COD,2006,31.4
+Congo,COG,2006,51.8
+Comoros,COM,2006,74.5
+Cabo Verde,CPV,2006,85.4
+Djibouti,DJI,2006,62.4
+Eritrea,ERI,2006,77.9
+Ethiopia,ETH,2006,82.6
+Gabon,GAB,2006,93.0
+Ghana,GHA,2006,80.7
+Guinea,GIN,2006,65.3
+Gambia,GMB,2006,58.4
+Guinea-Bissau,GNB,2006,34.4
+Equatorial Guinea,GNQ,2006,93.1
+Kenya,KEN,2006,60.2
+Liberia,LBR,2006,
+Lesotho,LSO,2006,33.6
+Madagascar,MDG,2006,54.2
+Mali,MLI,2006,47.4
+Mozambique,MOZ,2006,38.5
+Mauritania,MRT,2006,57.7
+Mauritius,MUS,2006,99.5
+Malawi,MWI,2006,23.6
+Namibia,NAM,2006,72.2
+Niger,NER,2006,47.2
+Nigeria,NGA,2006,83.9
+Rwanda,RWA,2006,47.6
+Sudan,SDN,2006,61.8
+Senegal,SEN,2006,83.6
+Sierra Leone,SLE,2006,32.0
+South Sudan,SSD,2006,9.3
+Sao Tome and Principe,STP,2006,67.0
+Eswatini,SWZ,2006,63.4
+Seychelles,SYC,2006,98.8
+Chad,TCD,2006,17.1
+Togo,TGO,2006,64.9
+Tanzania,TZA,2006,42.3
+Uganda,UGA,2006,41.8
+South Africa,ZAF,2006,85.9
+Zambia,ZMB,2006,52.7
+Zimbabwe,ZWE,2006,91.4
+Angola,AGO,2007,66.1
+Burundi,BDI,2007,51.8
+Benin,BEN,2007,53.8
+Burkina Faso,BFA,2007,48.2
+Botswana,BWA,2007,56.9
+Central African Republic,CAF,2007,19.6
+Côte d'Ivoire,CIV,2007,85.8
+Cameroon,CMR,2007,90.4
+Democratic Republic of the Congo,COD,2007,36.6
+Congo,COG,2007,52.8
+Comoros,COM,2007,76.3
+Cabo Verde,CPV,2007,86.0
+Djibouti,DJI,2007,61.5
+Eritrea,ERI,2007,77.8
+Ethiopia,ETH,2007,83.3
+Gabon,GAB,2007,93.4
+Ghana,GHA,2007,82.7
+Guinea,GIN,2007,66.9
+Gambia,GMB,2007,60.0
+Guinea-Bissau,GNB,2007,25.9
+Equatorial Guinea,GNQ,2007,92.9
+Kenya,KEN,2007,62.0
+Liberia,LBR,2007,6.9
+Lesotho,LSO,2007,36.7
+Madagascar,MDG,2007,55.3
+Mali,MLI,2007,54.6
+Mozambique,MOZ,2007,37.5
+Mauritania,MRT,2007,70.4
+Mauritius,MUS,2007,99.5
+Malawi,MWI,2007,34.3
+Namibia,NAM,2007,77.6
+Niger,NER,2007,48.1
+Nigeria,NGA,2007,86.2
+Rwanda,RWA,2007,50.0
+Sudan,SDN,2007,61.9
+Senegal,SEN,2007,80.0
+Sierra Leone,SLE,2007,33.5
+South Sudan,SSD,2007,9.5
+Sao Tome and Principe,STP,2007,67.6
+Eswatini,SWZ,2007,66.3
+Seychelles,SYC,2007,98.9
+Chad,TCD,2007,18.4
+Togo,TGO,2007,62.2
+Tanzania,TZA,2007,44.0
+Uganda,UGA,2007,48.7
+South Africa,ZAF,2007,86.0
+Zambia,ZMB,2007,47.8
+Zimbabwe,ZWE,2007,85.2
+Angola,AGO,2008,61.3
+Burundi,BDI,2008,39.6
+Benin,BEN,2008,54.7
+Burkina Faso,BFA,2008,49.4
+Botswana,BWA,2008,60.1
+Central African Republic,CAF,2008,11.9
+Côte d'Ivoire,CIV,2008,88.8
+Cameroon,CMR,2008,83.5
+Democratic Republic of the Congo,COD,2008,34.6
+Congo,COG,2008,53.8
+Comoros,COM,2008,78.0
+Cabo Verde,CPV,2008,86.7
+Djibouti,DJI,2008,62.3
+Eritrea,ERI,2008,77.7
+Ethiopia,ETH,2008,84.0
+Gabon,GAB,2008,93.8
+Ghana,GHA,2008,84.8
+Guinea,GIN,2008,68.5
+Gambia,GMB,2008,61.5
+Guinea-Bissau,GNB,2008,26.3
+Equatorial Guinea,GNQ,2008,92.7
+Kenya,KEN,2008,63.8
+Liberia,LBR,2008,3.6
+Lesotho,LSO,2008,39.9
+Madagascar,MDG,2008,56.4
+Mali,MLI,2008,57.6
+Mozambique,MOZ,2008,38.9
+Mauritania,MRT,2008,62.0
+Mauritius,MUS,2008,99.5
+Malawi,MWI,2008,35.5
+Namibia,NAM,2008,72.6
+Niger,NER,2008,49.3
+Nigeria,NGA,2008,84.8
+Rwanda,RWA,2008,28.1
+Sudan,SDN,2008,45.8
+Senegal,SEN,2008,81.2
+Sierra Leone,SLE,2008,33.1
+South Sudan,SSD,2008,9.8
+Sao Tome and Principe,STP,2008,68.3
+Eswatini,SWZ,2008,68.0
+Seychelles,SYC,2008,99.0
+Chad,TCD,2008,19.6
+Togo,TGO,2008,64.7
+Tanzania,TZA,2008,40.1
+Uganda,UGA,2008,49.9
+South Africa,ZAF,2008,86.1
+Zambia,ZMB,2008,55.2
+Zimbabwe,ZWE,2008,85.2
+Angola,AGO,2009,57.7
+Burundi,BDI,2009,52.6
+Benin,BEN,2009,55.7
+Burkina Faso,BFA,2009,44.4
+Botswana,BWA,2009,60.8
+Central African Republic,CAF,2009,21.6
+Côte d'Ivoire,CIV,2009,87.2
+Cameroon,CMR,2009,84.4
+Democratic Republic of the Congo,COD,2009,36.2
+Congo,COG,2009,53.6
+Comoros,COM,2009,79.8
+Cabo Verde,CPV,2009,87.3
+Djibouti,DJI,2009,63.1
+Eritrea,ERI,2009,77.6
+Ethiopia,ETH,2009,84.8
+Gabon,GAB,2009,94.2
+Ghana,GHA,2009,84.2
+Guinea,GIN,2009,70.2
+Gambia,GMB,2009,63.1
+Guinea-Bissau,GNB,2009,26.7
+Equatorial Guinea,GNQ,2009,92.6
+Kenya,KEN,2009,65.6
+Liberia,LBR,2009,3.5
+Lesotho,LSO,2009,43.2
+Madagascar,MDG,2009,68.6
+Mali,MLI,2009,57.9
+Mozambique,MOZ,2009,43.1
+Mauritania,MRT,2009,64.2
+Mauritius,MUS,2009,99.5
+Malawi,MWI,2009,36.7
+Namibia,NAM,2009,78.4
+Niger,NER,2009,50.6
+Nigeria,NGA,2009,84.1
+Rwanda,RWA,2009,54.9
+Sudan,SDN,2009,58.0
+Senegal,SEN,2009,83.4
+Sierra Leone,SLE,2009,36.5
+South Sudan,SSD,2009,16.6
+Sao Tome and Principe,STP,2009,69.8
+Eswatini,SWZ,2009,72.6
+Seychelles,SYC,2009,99.1
+Chad,TCD,2009,20.9
+Togo,TGO,2009,67.2
+Tanzania,TZA,2009,43.5
+Uganda,UGA,2009,45.0
+South Africa,ZAF,2009,86.3
+Zambia,ZMB,2009,56.4
+Zimbabwe,ZWE,2009,90.9
+Angola,AGO,2010,73.6
+Burundi,BDI,2010,49.0
+Benin,BEN,2010,65.4
+Burkina Faso,BFA,2010,48.5
+Botswana,BWA,2010,68.2
+Central African Republic,CAF,2010,24.9
+Côte d'Ivoire,CIV,2010,87.9
+Cameroon,CMR,2010,87.4
+Democratic Republic of the Congo,COD,2010,37.8
+Congo,COG,2010,57.1
+Comoros,COM,2010,85.0
+Cabo Verde,CPV,2010,90.6
+Djibouti,DJI,2010,64.0
+Eritrea,ERI,2010,77.5
+Ethiopia,ETH,2010,85.6
+Gabon,GAB,2010,96.0
+Ghana,GHA,2010,72.8
+Guinea,GIN,2010,71.9
+Gambia,GMB,2010,64.7
+Guinea-Bissau,GNB,2010,11.8
+Equatorial Guinea,GNQ,2010,93.2
+Kenya,KEN,2010,58.2
+Liberia,LBR,2010,9.9
+Lesotho,LSO,2010,55.2
+Madagascar,MDG,2010,39.1
+Mali,MLI,2010,74.4
+Mozambique,MOZ,2010,56.5
+Mauritania,MRT,2010,71.0
+Mauritius,MUS,2010,99.6
+Malawi,MWI,2010,34.7
+Namibia,NAM,2010,73.0
+Niger,NER,2010,59.1
+Nigeria,NGA,2010,79.8
+Rwanda,RWA,2010,44.5
+Sudan,SDN,2010,72.0
+Senegal,SEN,2010,84.3
+Sierra Leone,SLE,2010,34.3
+South Sudan,SSD,2010,4.0
+Sao Tome and Principe,STP,2010,69.7
+Eswatini,SWZ,2010,65.4
+Seychelles,SYC,2010,99.3
+Chad,TCD,2010,18.3
+Togo,TGO,2010,66.5
+Tanzania,TZA,2010,46.2
+Uganda,UGA,2010,48.0
+South Africa,ZAF,2010,86.4
+Zambia,ZMB,2010,49.8
+Zimbabwe,ZWE,2010,85.3
+Angola,AGO,2011,82.5
+Burundi,BDI,2011,53.4
+Benin,BEN,2011,67.0
+Burkina Faso,BFA,2011,53.1
+Botswana,BWA,2011,69.1
+Central African Republic,CAF,2011,26.1
+Côte d'Ivoire,CIV,2011,88.1
+Cameroon,CMR,2011,87.5
+Democratic Republic of the Congo,COD,2011,39.4
+Congo,COG,2011,58.1
+Comoros,COM,2011,84.9
+Cabo Verde,CPV,2011,91.0
+Djibouti,DJI,2011,64.8
+Eritrea,ERI,2011,77.3
+Ethiopia,ETH,2011,85.2
+Gabon,GAB,2011,96.2
+Ghana,GHA,2011,85.0
+Guinea,GIN,2011,73.5
+Gambia,GMB,2011,66.3
+Guinea-Bissau,GNB,2011,27.5
+Equatorial Guinea,GNQ,2011,93.1
+Kenya,KEN,2011,69.3
+Liberia,LBR,2011,7.2
+Lesotho,LSO,2011,57.2
+Madagascar,MDG,2011,61.5
+Mali,MLI,2011,75.9
+Mozambique,MOZ,2011,54.5
+Mauritania,MRT,2011,72.7
+Mauritius,MUS,2011,99.8
+Malawi,MWI,2011,32.6
+Namibia,NAM,2011,70.1
+Niger,NER,2011,59.9
+Nigeria,NGA,2011,87.1
+Rwanda,RWA,2011,58.2
+Sudan,SDN,2011,73.3
+Senegal,SEN,2011,87.8
+Sierra Leone,SLE,2011,35.8
+South Sudan,SSD,2011,10.8
+Sao Tome and Principe,STP,2011,70.4
+Eswatini,SWZ,2011,73.2
+Seychelles,SYC,2011,99.5
+Chad,TCD,2011,13.6
+Togo,TGO,2011,77.9
+Tanzania,TZA,2011,42.9
+Uganda,UGA,2011,55.4
+South Africa,ZAF,2011,86.5
+Zambia,ZMB,2011,58.9
+Zimbabwe,ZWE,2011,83.2
+Angola,AGO,2012,70.3
+Burundi,BDI,2012,58.5
+Benin,BEN,2012,68.6
+Burkina Faso,BFA,2012,54.3
+Botswana,BWA,2012,72.6
+Central African Republic,CAF,2012,27.1
+Côte d'Ivoire,CIV,2012,88.1
+Cameroon,CMR,2012,88.2
+Democratic Republic of the Congo,COD,2012,40.8
+Congo,COG,2012,58.9
+Comoros,COM,2012,85.1
+Cabo Verde,CPV,2012,91.4
+Djibouti,DJI,2012,64.2
+Eritrea,ERI,2012,77.2
+Ethiopia,ETH,2012,87.1
+Gabon,GAB,2012,98.1
+Ghana,GHA,2012,86.8
+Guinea,GIN,2012,74.2
+Gambia,GMB,2012,67.8
+Guinea-Bissau,GNB,2012,27.9
+Equatorial Guinea,GNQ,2012,92.2
+Kenya,KEN,2012,71.1
+Liberia,LBR,2012,16.1
+Lesotho,LSO,2012,59.1
+Madagascar,MDG,2012,72.8
+Mali,MLI,2012,76.0
+Mozambique,MOZ,2012,59.9
+Mauritania,MRT,2012,74.4
+Mauritius,MUS,2012,99.7
+Malawi,MWI,2012,37.1
+Namibia,NAM,2012,73.4
+Niger,NER,2012,61.8
+Nigeria,NGA,2012,84.5
+Rwanda,RWA,2012,67.6
+Sudan,SDN,2012,74.5
+Senegal,SEN,2012,86.3
+Sierra Leone,SLE,2012,41.0
+South Sudan,SSD,2012,11.1
+Sao Tome and Principe,STP,2012,65.3
+Eswatini,SWZ,2012,74.9
+Seychelles,SYC,2012,99.7
+Chad,TCD,2012,24.7
+Togo,TGO,2012,76.3
+Tanzania,TZA,2012,46.4
+Uganda,UGA,2012,54.6
+South Africa,ZAF,2012,86.7
+Zambia,ZMB,2012,60.1
+Zimbabwe,ZWE,2012,85.4
+Angola,AGO,2013,68.6
+Burundi,BDI,2013,52.4
+Benin,BEN,2013,61.0
+Burkina Faso,BFA,2013,55.5
+Botswana,BWA,2013,74.8
+Central African Republic,CAF,2013,28.0
+Côte d'Ivoire,CIV,2013,89.9
+Cameroon,CMR,2013,88.5
+Democratic Republic of the Congo,COD,2013,42.5
+Congo,COG,2013,60.1
+Comoros,COM,2013,87.0
+Cabo Verde,CPV,2013,91.7
+Djibouti,DJI,2013,66.4
+Eritrea,ERI,2013,77.1
+Ethiopia,ETH,2013,87.8
+Gabon,GAB,2013,94.3
+Ghana,GHA,2013,88.5
+Guinea,GIN,2013,76.9
+Gambia,GMB,2013,67.0
+Guinea-Bissau,GNB,2013,28.3
+Equatorial Guinea,GNQ,2013,92.0
+Kenya,KEN,2013,73.0
+Liberia,LBR,2013,16.4
+Lesotho,LSO,2013,61.0
+Madagascar,MDG,2013,60.7
+Mali,MLI,2013,78.9
+Mozambique,MOZ,2013,61.6
+Mauritania,MRT,2013,76.0
+Mauritius,MUS,2013,99.8
+Malawi,MWI,2013,36.6
+Namibia,NAM,2013,72.2
+Niger,NER,2013,59.4
+Nigeria,NGA,2013,83.6
+Rwanda,RWA,2013,61.5
+Sudan,SDN,2013,75.7
+Senegal,SEN,2013,87.8
+Sierra Leone,SLE,2013,41.4
+South Sudan,SSD,2013,11.3
+Sao Tome and Principe,STP,2013,71.8
+Eswatini,SWZ,2013,76.7
+Seychelles,SYC,2013,99.5
+Chad,TCD,2013,26.0
+Togo,TGO,2013,78.1
+Tanzania,TZA,2013,50.3
+Uganda,UGA,2013,55.8
+South Africa,ZAF,2013,86.8
+Zambia,ZMB,2013,61.4
+Zimbabwe,ZWE,2013,85.5
+Angola,AGO,2014,51.0
+Burundi,BDI,2014,52.1
+Benin,BEN,2014,55.8
+Burkina Faso,BFA,2014,58.4
+Botswana,BWA,2014,76.8
+Central African Republic,CAF,2014,28.8
+Côte d'Ivoire,CIV,2014,90.6
+Cameroon,CMR,2014,89.2
+Democratic Republic of the Congo,COD,2014,42.0
+Congo,COG,2014,61.0
+Comoros,COM,2014,88.7
+Cabo Verde,CPV,2014,91.9
+Djibouti,DJI,2014,67.1
+Eritrea,ERI,2014,77.0
+Ethiopia,ETH,2014,92.0
+Gabon,GAB,2014,96.6
+Ghana,GHA,2014,90.8
+Guinea,GIN,2014,78.6
+Gambia,GMB,2014,70.9
+Guinea-Bissau,GNB,2014,33.1
+Equatorial Guinea,GNQ,2014,91.8
+Kenya,KEN,2014,68.4
+Liberia,LBR,2014,14.8
+Lesotho,LSO,2014,61.5
+Madagascar,MDG,2014,63.2
+Mali,MLI,2014,80.3
+Mozambique,MOZ,2014,68.0
+Mauritania,MRT,2014,76.9
+Mauritius,MUS,2014,99.7
+Malawi,MWI,2014,46.1
+Namibia,NAM,2014,73.8
+Niger,NER,2014,59.3
+Nigeria,NGA,2014,84.7
+Rwanda,RWA,2014,71.8
+Sudan,SDN,2014,76.3
+Senegal,SEN,2014,85.0
+Sierra Leone,SLE,2014,44.0
+South Sudan,SSD,2014,11.6
+Sao Tome and Principe,STP,2014,75.8
+Eswatini,SWZ,2014,84.0
+Seychelles,SYC,2014,100.0
+Chad,TCD,2014,27.2
+Togo,TGO,2014,83.2
+Tanzania,TZA,2014,53.6
+Uganda,UGA,2014,51.4
+South Africa,ZAF,2014,86.9
+Zambia,ZMB,2014,61.5
+Zimbabwe,ZWE,2014,83.4
+Angola,AGO,2015,64.0
+Burundi,BDI,2015,56.5
+Benin,BEN,2015,51.7
+Burkina Faso,BFA,2015,58.2
+Botswana,BWA,2015,79.6
+Central African Republic,CAF,2015,29.7
+Côte d'Ivoire,CIV,2015,86.5
+Cameroon,CMR,2015,89.8
+Democratic Republic of the Congo,COD,2015,37.5
+Congo,COG,2015,61.8
+Comoros,COM,2015,90.5
+Cabo Verde,CPV,2015,92.1
+Djibouti,DJI,2015,67.9
+Eritrea,ERI,2015,76.8
+Ethiopia,ETH,2015,85.0
+Gabon,GAB,2015,96.7
+Ghana,GHA,2015,88.4
+Guinea,GIN,2015,80.1
+Gambia,GMB,2015,72.5
+Guinea-Bissau,GNB,2015,35.5
+Equatorial Guinea,GNQ,2015,91.7
+Kenya,KEN,2015,78.1
+Liberia,LBR,2015,25.4
+Lesotho,LSO,2015,64.6
+Madagascar,MDG,2015,64.3
+Mali,MLI,2015,83.1
+Mozambique,MOZ,2015,68.0
+Mauritania,MRT,2015,79.0
+Mauritius,MUS,2015,99.6
+Malawi,MWI,2015,48.7
+Namibia,NAM,2015,74.6
+Niger,NER,2015,60.2
+Nigeria,NGA,2015,81.5
+Rwanda,RWA,2015,72.9
+Sudan,SDN,2015,77.8
+Senegal,SEN,2015,86.9
+Sierra Leone,SLE,2015,45.4
+South Sudan,SSD,2015,11.9
+Sao Tome and Principe,STP,2015,73.0
+Eswatini,SWZ,2015,80.6
+Seychelles,SYC,2015,100.0
+Chad,TCD,2015,32.4
+Togo,TGO,2015,82.0
+Tanzania,TZA,2015,58.4
+Uganda,UGA,2015,51.9
+South Africa,ZAF,2015,87.0
+Zambia,ZMB,2015,67.7
+Zimbabwe,ZWE,2015,81.2
+Angola,AGO,2016,67.9
+Burundi,BDI,2016,57.6
+Benin,BEN,2016,62.5
+Burkina Faso,BFA,2016,59.7
+Botswana,BWA,2016,80.9
+Central African Republic,CAF,2016,30.5
+Côte d'Ivoire,CIV,2016,92.0
+Cameroon,CMR,2016,90.6
+Democratic Republic of the Congo,COD,2016,38.6
+Congo,COG,2016,62.7
+Comoros,COM,2016,92.2
+Cabo Verde,CPV,2016,92.3
+Djibouti,DJI,2016,68.6
+Eritrea,ERI,2016,76.7
+Ethiopia,ETH,2016,85.4
+Gabon,GAB,2016,97.0
+Ghana,GHA,2016,89.8
+Guinea,GIN,2016,82.2
+Gambia,GMB,2016,74.0
+Guinea-Bissau,GNB,2016,39.7
+Equatorial Guinea,GNQ,2016,91.4
+Kenya,KEN,2016,84.3
+Liberia,LBR,2016,31.2
+Lesotho,LSO,2016,66.4
+Madagascar,MDG,2016,67.3
+Mali,MLI,2016,83.0
+Mozambique,MOZ,2016,66.2
+Mauritania,MRT,2016,80.5
+Mauritius,MUS,2016,99.6
+Malawi,MWI,2016,42.0
+Namibia,NAM,2016,69.3
+Niger,NER,2016,59.2
+Nigeria,NGA,2016,86.0
+Rwanda,RWA,2016,80.0
+Sudan,SDN,2016,78.9
+Senegal,SEN,2016,87.7
+Sierra Leone,SLE,2016,46.9
+South Sudan,SSD,2016,12.1
+Sao Tome and Principe,STP,2016,73.7
+Eswatini,SWZ,2016,81.0
+Seychelles,SYC,2016,100.0
+Chad,TCD,2016,31.1
+Togo,TGO,2016,84.4
+Tanzania,TZA,2016,65.3
+Uganda,UGA,2016,57.5
+South Africa,ZAF,2016,87.1
+Zambia,ZMB,2016,69.9
+Zimbabwe,ZWE,2016,85.5
+Angola,AGO,2017,69.4
+Burundi,BDI,2017,61.8
+Benin,BEN,2017,54.2
+Burkina Faso,BFA,2017,61.4
+Botswana,BWA,2017,84.0
+Central African Republic,CAF,2017,31.4
+Côte d'Ivoire,CIV,2017,92.5
+Cameroon,CMR,2017,91.4
+Democratic Republic of the Congo,COD,2017,39.7
+Congo,COG,2017,63.6
+Comoros,COM,2017,93.9
+Cabo Verde,CPV,2017,92.5
+Djibouti,DJI,2017,70.0
+Eritrea,ERI,2017,76.5
+Ethiopia,ETH,2017,96.6
+Gabon,GAB,2017,97.8
+Ghana,GHA,2017,90.0
+Guinea,GIN,2017,83.4
+Gambia,GMB,2017,79.4
+Guinea-Bissau,GNB,2017,43.9
+Equatorial Guinea,GNQ,2017,91.2
+Kenya,KEN,2017,83.6
+Liberia,LBR,2017,40.5
+Lesotho,LSO,2017,68.8
+Madagascar,MDG,2017,66.6
+Mali,MLI,2017,85.0
+Mozambique,MOZ,2017,60.5
+Mauritania,MRT,2017,82.0
+Mauritius,MUS,2017,99.6
+Malawi,MWI,2017,57.5
+Namibia,NAM,2017,74.3
+Niger,NER,2017,60.4
+Nigeria,NGA,2017,86.8
+Rwanda,RWA,2017,84.8
+Sudan,SDN,2017,80.0
+Senegal,SEN,2017,91.7
+Sierra Leone,SLE,2017,48.7
+South Sudan,SSD,2017,9.6
+Sao Tome and Principe,STP,2017,73.5
+Eswatini,SWZ,2017,85.3
+Seychelles,SYC,2017,100.0
+Chad,TCD,2017,33.6
+Togo,TGO,2017,88.8
+Tanzania,TZA,2017,64.8
+Uganda,UGA,2017,63.4
+South Africa,ZAF,2017,87.2
+Zambia,ZMB,2017,75.2
+Zimbabwe,ZWE,2017,85.5
+Angola,AGO,2018,65.3
+Burundi,BDI,2018,59.8
+Benin,BEN,2018,64.3
+Burkina Faso,BFA,2018,62.3
+Botswana,BWA,2018,85.5
+Central African Republic,CAF,2018,32.2
+Côte d'Ivoire,CIV,2018,93.1
+Cameroon,CMR,2018,90.0
+Democratic Republic of the Congo,COD,2018,40.8
+Congo,COG,2018,64.5
+Comoros,COM,2018,95.6
+Cabo Verde,CPV,2018,93.1
+Djibouti,DJI,2018,70.6
+Eritrea,ERI,2018,76.3
+Ethiopia,ETH,2018,91.8
+Gabon,GAB,2018,97.7
+Ghana,GHA,2018,89.9
+Guinea,GIN,2018,86.7
+Gambia,GMB,2018,76.4
+Guinea-Bissau,GNB,2018,48.1
+Equatorial Guinea,GNQ,2018,91.0
+Kenya,KEN,2018,87.2
+Liberia,LBR,2018,37.2
+Lesotho,LSO,2018,70.7
+Madagascar,MDG,2018,71.2
+Mali,MLI,2018,85.6
+Mozambique,MOZ,2018,72.2
+Mauritania,MRT,2018,83.6
+Mauritius,MUS,2018,99.5
+Malawi,MWI,2018,49.0
+Namibia,NAM,2018,74.4
+Niger,NER,2018,47.6
+Nigeria,NGA,2018,81.7
+Rwanda,RWA,2018,85.8
+Sudan,SDN,2018,81.1
+Senegal,SEN,2018,93.5
+Sierra Leone,SLE,2018,53.2
+South Sudan,SSD,2018,12.6
+Sao Tome and Principe,STP,2018,76.7
+Eswatini,SWZ,2018,87.7
+Seychelles,SYC,2018,100.0
+Chad,TCD,2018,36.0
+Togo,TGO,2018,83.1
+Tanzania,TZA,2018,67.9
+Uganda,UGA,2018,72.0
+South Africa,ZAF,2018,87.2
+Zambia,ZMB,2018,76.3
+Zimbabwe,ZWE,2018,85.4
+Angola,AGO,2019,72.2
+Burundi,BDI,2019,60.8
+Benin,BEN,2019,65.2
+Burkina Faso,BFA,2019,64.6
+Botswana,BWA,2019,88.0
+Central African Republic,CAF,2019,32.1
+Côte d'Ivoire,CIV,2019,93.7
+Cameroon,CMR,2019,93.1
+Democratic Republic of the Congo,COD,2019,41.2
+Congo,COG,2019,65.3
+Comoros,COM,2019,97.3
+Cabo Verde,CPV,2019,93.5
+Djibouti,DJI,2019,71.6
+Eritrea,ERI,2019,76.1
+Ethiopia,ETH,2019,92.7
+Gabon,GAB,2019,98.0
+Ghana,GHA,2019,93.8
+Guinea,GIN,2019,86.0
+Gambia,GMB,2019,78.6
+Guinea-Bissau,GNB,2019,52.3
+Equatorial Guinea,GNQ,2019,90.8
+Kenya,KEN,2019,90.8
+Liberia,LBR,2019,37.0
+Lesotho,LSO,2019,74.4
+Madagascar,MDG,2019,60.7
+Mali,MLI,2019,90.9
+Mozambique,MOZ,2019,72.3
+Mauritania,MRT,2019,85.5
+Mauritius,MUS,2019,100.0
+Malawi,MWI,2019,45.5
+Namibia,NAM,2019,74.5
+Niger,NER,2019,62.7
+Nigeria,NGA,2019,83.9
+Rwanda,RWA,2019,86.4
+Sudan,SDN,2019,82.2
+Senegal,SEN,2019,95.2
+Sierra Leone,SLE,2019,51.4
+South Sudan,SSD,2019,13.6
+Sao Tome and Principe,STP,2019,77.6
+Eswatini,SWZ,2019,90.0
+Seychelles,SYC,2019,100.0
+Chad,TCD,2019,36.7
+Togo,TGO,2019,91.6
+Tanzania,TZA,2019,73.2
+Uganda,UGA,2019,70.8
+South Africa,ZAF,2019,87.3
+Zambia,ZMB,2019,79.5
+Zimbabwe,ZWE,2019,85.4
+Angola,AGO,2020,73.6
+Burundi,BDI,2020,60.5
+Benin,BEN,2020,66.1
+Burkina Faso,BFA,2020,66.1
+Botswana,BWA,2020,90.6
+Central African Republic,CAF,2020,33.9
+Côte d'Ivoire,CIV,2020,94.3
+Cameroon,CMR,2020,93.9
+Democratic Republic of the Congo,COD,2020,42.8
+Congo,COG,2020,66.2
+Comoros,COM,2020,99.0
+Cabo Verde,CPV,2020,94.3
+Djibouti,DJI,2020,72.6
+Eritrea,ERI,2020,75.9
+Ethiopia,ETH,2020,93.5
+Gabon,GAB,2020,98.4
+Ghana,GHA,2020,94.6
+Guinea,GIN,2020,88.3
+Gambia,GMB,2020,80.9
+Guinea-Bissau,GNB,2020,56.4
+Equatorial Guinea,GNQ,2020,90.5
+Kenya,KEN,2020,94.1
+Liberia,LBR,2020,45.4
+Lesotho,LSO,2020,77.5
+Madagascar,MDG,2020,72.4
+Mali,MLI,2020,93.9
+Mozambique,MOZ,2020,74.8
+Mauritania,MRT,2020,87.5
+Mauritius,MUS,2020,99.4
+Malawi,MWI,2020,49.6
+Namibia,NAM,2020,74.7
+Niger,NER,2020,63.8
+Nigeria,NGA,2020,83.9
+Rwanda,RWA,2020,93.9
+Sudan,SDN,2020,83.2
+Senegal,SEN,2020,92.0
+Sierra Leone,SLE,2020,55.0
+South Sudan,SSD,2020,14.6
+Sao Tome and Principe,STP,2020,78.8
+Eswatini,SWZ,2020,92.3
+Seychelles,SYC,2020,100.0
+Chad,TCD,2020,40.8
+Togo,TGO,2020,94.0
+Tanzania,TZA,2020,72.9
+Uganda,UGA,2020,70.1
+South Africa,ZAF,2020,87.3
+Zambia,ZMB,2020,82.6
+Zimbabwe,ZWE,2020,85.7
+Angola,AGO,2021,75.0
+Burundi,BDI,2021,62.8
+Benin,BEN,2021,67.0
+Burkina Faso,BFA,2021,67.6
+Botswana,BWA,2021,93.1
+Central African Republic,CAF,2021,34.7
+Côte d'Ivoire,CIV,2021,94.9
+Cameroon,CMR,2021,94.7
+Democratic Republic of the Congo,COD,2021,43.8
+Congo,COG,2021,67.0
+Comoros,COM,2021,100.0
+Cabo Verde,CPV,2021,94.9
+Djibouti,DJI,2021,73.5
+Eritrea,ERI,2021,75.7
+Ethiopia,ETH,2021,94.3
+Gabon,GAB,2021,98.7
+Ghana,GHA,2021,95.2
+Guinea,GIN,2021,89.8
+Gambia,GMB,2021,82.6
+Guinea-Bissau,GNB,2021,60.5
+Equatorial Guinea,GNQ,2021,90.3
+Kenya,KEN,2021,97.5
+Liberia,LBR,2021,49.5
+Lesotho,LSO,2021,80.6
+Madagascar,MDG,2021,72.6
+Mali,MLI,2021,96.9
+Mozambique,MOZ,2021,77.4
+Mauritania,MRT,2021,89.7
+Mauritius,MUS,2021,99.3
+Malawi,MWI,2021,54.2
+Namibia,NAM,2021,74.7
+Niger,NER,2021,65.9
+Nigeria,NGA,2021,89.2
+Rwanda,RWA,2021,98.0
+Sudan,SDN,2021,84.2
+Senegal,SEN,2021,93.9
+Sierra Leone,SLE,2021,57.0
+South Sudan,SSD,2021,15.6
+Sao Tome and Principe,STP,2021,80.0
+Eswatini,SWZ,2021,94.6
+Seychelles,SYC,2021,100.0
+Chad,TCD,2021,43.2
+Togo,TGO,2021,96.3
+Tanzania,TZA,2021,77.3
+Uganda,UGA,2021,72.3
+South Africa,ZAF,2021,87.4
+Zambia,ZMB,2021,85.7
+Zimbabwe,ZWE,2021,85.3
+Angola,AGO,2022,76.2
+Burundi,BDI,2022,64.0
+Benin,BEN,2022,71.1
+Burkina Faso,BFA,2022,60.5
+Botswana,BWA,2022,95.5
+Central African Republic,CAF,2022,34.7
+Côte d'Ivoire,CIV,2022,95.0
+Cameroon,CMR,2022,94.0
+Democratic Republic of the Congo,COD,2022,45.3
+Congo,COG,2022,67.5
+Comoros,COM,2022,100.0
+Cabo Verde,CPV,2022,95.3
+Djibouti,DJI,2022,72.8
+Eritrea,ERI,2022,75.5
+Ethiopia,ETH,2022,94.0
+Gabon,GAB,2022,98.5
+Ghana,GHA,2022,95.0
+Guinea,GIN,2022,91.0
+Gambia,GMB,2022,82.8
+Guinea-Bissau,GNB,2022,61.0
+Equatorial Guinea,GNQ,2022,89.8
+Kenya,KEN,2022,98.0
+Liberia,LBR,2022,53.7
+Lesotho,LSO,2022,83.6
+Madagascar,MDG,2022,71.6
+Mali,MLI,2022,99.7
+Mozambique,MOZ,2022,79.4
+Mauritania,MRT,2022,91.6
+Mauritius,MUS,2022,99.0
+Malawi,MWI,2022,54.0
+Namibia,NAM,2022,74.8
+Niger,NER,2022,66.1
+Nigeria,NGA,2022,89.0
+Rwanda,RWA,2022,98.0
+Sudan,SDN,2022,84.0
+Senegal,SEN,2022,96.6
+Sierra Leone,SLE,2022,55.3
+South Sudan,SSD,2022,15.0
+Sao Tome and Principe,STP,2022,80.0
+Eswatini,SWZ,2022,86.1
+Seychelles,SYC,2022,100.0
+Chad,TCD,2022,46.3
+Togo,TGO,2022,96.5
+Tanzania,TZA,2022,74.7
+Uganda,UGA,2022,72.0
+South Africa,ZAF,2022,87.1
+Zambia,ZMB,2022,87.0
+Zimbabwe,ZWE,2022,89.0
+Angola,AGO,2023,77.9
+Burundi,BDI,2023,65.0
+Benin,BEN,2023,70.3
+Burkina Faso,BFA,2023,62.6
+Botswana,BWA,2023,97.7
+Central African Republic,CAF,2023,37.4
+Côte d'Ivoire,CIV,2023,93.9
+Cameroon,CMR,2023,95.8
+Democratic Republic of the Congo,COD,2023,55.6
+Congo,COG,2023,69.4
+Comoros,COM,2023,98.3
+Cabo Verde,CPV,2023,96.5
+Djibouti,DJI,2023,74.6
+Eritrea,ERI,2023,77.1
+Ethiopia,ETH,2023,94.7
+Gabon,GAB,2023,99.2
+Ghana,GHA,2023,97.5
+Guinea,GIN,2023,92.5
+Gambia,GMB,2023,85.3
+Guinea-Bissau,GNB,2023,64.3
+Equatorial Guinea,GNQ,2023,89.0
+Kenya,KEN,2023,96.0
+Liberia,LBR,2023,52.7
+Lesotho,LSO,2023,85.0
+Madagascar,MDG,2023,75.6
+Mali,MLI,2023,91.5
+Mozambique,MOZ,2023,78.9
+Mauritania,MRT,2023,93.5
+Mauritius,MUS,2023,100.0
+Malawi,MWI,2023,57.8
+Namibia,NAM,2023,75.0
+Niger,NER,2023,67.4
+Nigeria,NGA,2023,85.0
+Rwanda,RWA,2023,99.9
+Sudan,SDN,2023,87.0
+Senegal,SEN,2023,96.1
+Sierra Leone,SLE,2023,56.3
+South Sudan,SSD,2023,19.1
+Sao Tome and Principe,STP,2023,81.9
+Eswatini,SWZ,2023,91.0
+Seychelles,SYC,2023,100.0
+Chad,TCD,2023,48.1
+Togo,TGO,2023,95.0
+Tanzania,TZA,2023,82.4
+Uganda,UGA,2023,76.4
+South Africa,ZAF,2023,90.9
+Zambia,ZMB,2023,89.9
+Zimbabwe,ZWE,2023,84.0

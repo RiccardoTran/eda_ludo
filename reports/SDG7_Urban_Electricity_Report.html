@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 7: Urban Electricity Access in Sub-Saharan Africa</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, #1f77b4, #2e86ab); color: white; padding: 40px 20px; text-align: center; }
+        header h1 { font-size: 2em; margin-bottom: 10px; }
+        .tag { background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; display: inline-block; margin-top: 10px; }
+        section { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 20px 0; }
+        h2 { color: #1f77b4; border-bottom: 3px solid #1f77b4; padding-bottom: 10px; margin-bottom: 20px; }
+        h3 { color: #2e86ab; margin: 20px 0 15px 0; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin: 20px 0; }
+        .stat-card { background: #e3f2fd; padding: 20px; border-radius: 8px; text-align: center; border-left: 4px solid #1f77b4; }
+        .stat-value { font-size: 2em; font-weight: bold; color: #1f77b4; }
+        .stat-label { color: #666; font-size: 0.9em; }
+        .chart-container { margin: 25px 0; text-align: center; }
+        .chart-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .chart-caption { color: #666; font-style: italic; margin-top: 10px; font-size: 0.9em; }
+        .info-box { background: #e3f2fd; border-left: 4px solid #1f77b4; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .info-box h4 { color: #1f77b4; margin-bottom: 10px; }
+        .info-box ul { margin-left: 20px; }
+        .info-box li { margin-bottom: 8px; }
+        .plain-lang { background: #fff9e6; border: 1px solid #f0d78c; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .plain-lang h4 { color: #856404; margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #1f77b4; color: white; }
+        footer { text-align: center; padding: 20px; color: #666; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SDG 7: Urban Electricity Access</h1>
+        <p>Sub-Saharan Africa | 50 Countries | 1990-2022</p>
+        <div class="tag">URBAN</div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Overview</h2>
+            <div class="plain-lang">
+                <h4>What This Report Shows</h4>
+                <p>This report examines <strong>electricity access in cities and towns</strong> across Sub-Saharan Africa. It answers: What percentage of city residents have electricity? How has this changed over time? Which countries are doing best or worst?</p>
+            </div>
+            <table>
+                <tr><th>Attribute</th><th>Details</th></tr>
+                <tr><td>Source</td><td>World Bank - World Development Indicators</td></tr>
+                <tr><td>Indicator Code</td><td>EG.ELC.ACCS.UR.ZS</td></tr>
+                <tr><td>Definition</td><td>% of urban population with electricity access</td></tr>
+                <tr><td>Coverage</td><td>50 Sub-Saharan African countries</td></tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Key Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card"><div class="stat-value">~80%</div><div class="stat-label">SSA Average (2022)</div></div>
+                <div class="stat-card"><div class="stat-value">100%</div><div class="stat-label">Highest Access</div></div>
+                <div class="stat-card"><div class="stat-value">&lt;50%</div><div class="stat-label">Lowest Access</div></div>
+                <div class="stat-card"><div class="stat-value">+25pp</div><div class="stat-label">Change Since 1990</div></div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Trend Over Time</h2>
+            <div class="chart-container">
+                <img src="../csv/urban_elec_trend.png" alt="Urban Electricity Trend">
+                <p class="chart-caption">SSA average urban electricity access from 1990 to 2022</p>
+            </div>
+            <div class="plain-lang">
+                <h4>Reading This Chart</h4>
+                <p>The blue line shows the average urban electricity access across all SSA countries. The shaded area shows variation between countries. An upward trend indicates improving access over time.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Distribution Analysis</h2>
+            <div class="chart-container">
+                <img src="../csv/urban_elec_distribution.png" alt="Urban Electricity Distribution">
+                <p class="chart-caption">Left: How countries are distributed. Right: Changes by decade.</p>
+            </div>
+            <div class="plain-lang">
+                <h4>Reading These Charts</h4>
+                <p><strong>Histogram (left):</strong> Each bar shows how many countries have access in that range. <strong>Box plots (right):</strong> Shows how access is distributed each decade - boxes moving up means improvement.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Country Comparison</h2>
+            <div class="chart-container">
+                <img src="../csv/urban_elec_country_ranking.png" alt="Country Ranking">
+                <p class="chart-caption">Urban electricity access by country (most recent year)</p>
+            </div>
+            <div class="plain-lang">
+                <h4>Reading This Chart</h4>
+                <p>Each bar is a country. Longer bars = higher access. Colors indicate access levels: Blue (>90%), Green (70-90%), Orange (50-70%), Red (<50%).</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Progress Analysis</h2>
+            <div class="chart-container">
+                <img src="../csv/urban_elec_improvement.png" alt="Improvement Analysis">
+                <p class="chart-caption">Countries with most and least improvement</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Key Findings</h2>
+            <div class="info-box">
+                <h4>Main Observations</h4>
+                <ul>
+                    <li>Urban electricity access in SSA averages around 80%</li>
+                    <li>Access has been steadily improving over the past three decades</li>
+                    <li>Several countries have achieved near-universal urban electrification</li>
+                    <li>Some countries still have less than 50% urban electricity access</li>
+                    <li>The gap between best and worst performing countries is significant</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Data Notes</h2>
+            <ul>
+                <li>Data shows percentage access only, not quality of electricity service</li>
+                <li>Some countries have missing data for certain years</li>
+                <li>National urban averages may hide differences within cities</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p><strong>Data Source:</strong> World Bank WDI (EG.ELC.ACCS.UR.ZS)</p>
+            <p>Report generated: November 2025</p>
+        </footer>
+    </div>
+</body>
+</html>

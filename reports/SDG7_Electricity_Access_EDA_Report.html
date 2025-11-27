@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 7: Electricity Access in Sub-Saharan Africa - EDA Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a5f7a;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 4px solid #1a5f7a;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #1a5f7a;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 5px solid #f4a261;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #2a9d8f;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .meta {
+            color: #888;
+            font-size: 0.95em;
+            margin-bottom: 30px;
+        }
+        .executive-summary {
+            background: linear-gradient(135deg, #1a5f7a 0%, #2a9d8f 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .executive-summary h2 {
+            color: white;
+            border-left-color: #f4a261;
+            margin-top: 0;
+        }
+        .executive-summary ul {
+            margin-left: 20px;
+        }
+        .executive-summary li {
+            margin: 10px 0;
+        }
+        .key-finding {
+            background: #e9f5f3;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #2a9d8f;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #1a5f7a;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        .chart-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .chart-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .observations {
+            background: #fff9e6;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #f4a261;
+        }
+        .observations h4 {
+            color: #e76f51;
+            margin-bottom: 10px;
+        }
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .color-legend {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 15px 0;
+        }
+        .color-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .color-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        .success-stories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .success-card {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .success-card h4 {
+            color: #2e7d32;
+            margin-bottom: 5px;
+        }
+        .success-card .change {
+            font-size: 1.5em;
+            color: #2e7d32;
+            font-weight: bold;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #eee;
+            margin: 40px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #888;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .chart-container img {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SDG 7: Electricity Access in Sub-Saharan Africa</h1>
+        <p class="subtitle">Exploratory Data Analysis Report</p>
+        <p class="meta"><strong>Date:</strong> November 2025 | <strong>Scope:</strong> 50 Sub-Saharan African Countries | 1990-2023</p>
+
+        <div class="executive-summary">
+            <h2>Executive Summary</h2>
+            <p>This report presents an exploratory data analysis of electricity access across Sub-Saharan Africa (SSA) using World Bank data (indicator EG.ELC.ACCS.ZS).</p>
+            <h3 style="color: #f4a261; margin-top: 20px;">Key Findings from Data:</h3>
+            <ul>
+                <li>SSA average electricity access: <strong>23.9%</strong> (1990) → <strong>51.5%</strong> (2023)</li>
+                <li>Total change: <strong>+27.6 percentage points</strong> over 33 years</li>
+                <li>Higher income countries show higher electricity access rates</li>
+                <li>Kenya, Rwanda, and Ethiopia show the largest improvements in the dataset</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>1. Data Overview</h2>
+
+        <h3>Data Source</h3>
+        <table>
+            <tr><th>Attribute</th><th>Details</th></tr>
+            <tr><td><strong>Source</strong></td><td>World Bank - World Development Indicators</td></tr>
+            <tr><td><strong>Indicator</strong></td><td>EG.ELC.ACCS.ZS (Access to electricity % of population)</td></tr>
+            <tr><td><strong>Coverage</strong></td><td>50 Sub-Saharan African countries</td></tr>
+            <tr><td><strong>Time Period</strong></td><td>1990-2023 (34 years)</td></tr>
+            <tr><td><strong>Last Updated</strong></td><td>October 2025</td></tr>
+            <tr><td><strong>License</strong></td><td>CC BY-4.0</td></tr>
+        </table>
+
+        <h3>Data Quality Assessment</h3>
+        <div class="chart-container">
+            <img src="../csv/missing_data_analysis.png" alt="Missing Data Analysis">
+        </div>
+        <div class="observations">
+            <h4>Observations:</h4>
+            <ul>
+                <li><strong>Left chart:</strong> Countries with highest missing data rates (Somalia, Mayotte, South Sudan have most gaps)</li>
+                <li><strong>Right chart:</strong> Missing data percentage decreases over time, with better coverage after 2000</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>2. Current State of Electricity Access (2023)</h2>
+
+        <h3>Distribution Analysis</h3>
+        <div class="chart-container">
+            <img src="../csv/distribution_analysis.png" alt="Distribution Analysis">
+        </div>
+        <div class="observations">
+            <h4>Observations:</h4>
+            <p><strong>Left - Histogram:</strong></p>
+            <ul>
+                <li>Distribution shows countries clustered at both low (&lt;30%) and high (&gt;70%) access levels</li>
+                <li>Mean: ~51%, Median: ~53%</li>
+            </ul>
+            <p><strong>Right - Box Plot by Income Group:</strong></p>
+            <ul>
+                <li>High income countries: Near 100% access</li>
+                <li>Upper middle income: Median ~85%</li>
+                <li>Lower middle income: Median ~55%</li>
+                <li>Low income: Median ~30%</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>3. Historical Trends</h2>
+
+        <h3>SSA Regional Average Over Time</h3>
+        <div class="chart-container">
+            <img src="../csv/ssa_average_trend.png" alt="SSA Average Trend">
+        </div>
+        <div class="observations">
+            <h4>Observations:</h4>
+            <ul>
+                <li><strong>1990:</strong> 23.9% average access</li>
+                <li><strong>2023:</strong> 51.5% average access</li>
+                <li><strong>Total change:</strong> +27.6 percentage points</li>
+                <li><strong>Average annual change:</strong> +0.84 percentage points per year</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>4. Country Comparisons</h2>
+
+        <h3>Top Performers vs. Countries with Least Change</h3>
+        <div class="chart-container">
+            <img src="../csv/top_bottom_countries.png" alt="Top Bottom Countries">
+        </div>
+        <div class="observations">
+            <h4>From the data:</h4>
+            <p><strong>Left chart:</strong> Countries with largest increase in electricity access over time</p>
+            <p><strong>Right chart:</strong> Countries with smallest change or least data available</p>
+        </div>
+
+        <h3>Countries with Largest Improvements (Data)</h3>
+        <div class="success-stories">
+            <div class="success-card">
+                <h4>Kenya</h4>
+                <p>~15% → ~75%</p>
+                <p class="change">+60pp</p>
+            </div>
+            <div class="success-card">
+                <h4>Rwanda</h4>
+                <p>~2% → ~50%</p>
+                <p class="change">+48pp</p>
+            </div>
+            <div class="success-card">
+                <h4>Ethiopia</h4>
+                <p>~12% → ~55%</p>
+                <p class="change">+43pp</p>
+            </div>
+            <div class="success-card">
+                <h4>Ghana</h4>
+                <p>~45% → ~85%</p>
+                <p class="change">+40pp</p>
+            </div>
+        </div>
+
+        <h3>All Countries Ranked (2023)</h3>
+        <div class="chart-container">
+            <img src="../csv/country_comparison.png" alt="Country Comparison">
+        </div>
+        <div class="observations">
+            <h4>Country Tiers by Access Level:</h4>
+            <div class="color-legend">
+                <div class="color-item"><div class="color-dot" style="background: #1f77b4;"></div> Blue: &gt;80% access</div>
+                <div class="color-item"><div class="color-dot" style="background: #2ca02c;"></div> Green: 50-80% access</div>
+                <div class="color-item"><div class="color-dot" style="background: #ff7f0e;"></div> Orange: 20-50% access</div>
+                <div class="color-item"><div class="color-dot" style="background: #d62728;"></div> Red: &lt;20% access</div>
+            </div>
+            <ul>
+                <li><strong>Highest access (&gt;80%):</strong> Mauritius, Seychelles, South Africa, Gabon, Ghana, Cabo Verde</li>
+                <li><strong>Lowest access (&lt;20%):</strong> Chad, Central African Republic, South Sudan, Burundi</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>5. Temporal Patterns</h2>
+
+        <h3>Heatmap: Countries × Years</h3>
+        <div class="chart-container">
+            <img src="../csv/heatmap_countries_years.png" alt="Heatmap">
+        </div>
+        <div class="observations">
+            <h4>Observations:</h4>
+            <ul>
+                <li><strong>Color gradient:</strong> Red (low access) → Yellow (medium) → Green (high access)</li>
+                <li><strong>White cells:</strong> Missing data</li>
+                <li>Countries at top: Highest access throughout period</li>
+                <li>Countries at bottom: Lowest access throughout period</li>
+            </ul>
+        </div>
+
+        <h3>Distribution by Decade</h3>
+        <div class="chart-container">
+            <img src="../csv/boxplot_decades.png" alt="Box Plot Decades">
+        </div>
+        <div class="observations">
+            <h4>Observations:</h4>
+            <ul>
+                <li><strong>1990s:</strong> Median ~25%</li>
+                <li><strong>2000s:</strong> Median ~30%</li>
+                <li><strong>2010s:</strong> Median ~45%</li>
+                <li><strong>2020s:</strong> Median ~55%</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>6. Before & After Comparison (1990 vs 2023)</h2>
+        <div class="chart-container">
+            <img src="../csv/before_after_comparison.png" alt="Before After Comparison">
+        </div>
+        <div class="observations">
+            <h4>Observations:</h4>
+            <ul>
+                <li><strong>Coral bars:</strong> 1990 values</li>
+                <li><strong>Blue bars:</strong> 2023 values</li>
+                <li><strong>Gap between bars:</strong> Change over 33 years</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2>7. Summary of Findings</h2>
+
+        <h3>What the Data Shows</h3>
+        <div class="key-finding">
+            <strong>1. Overall Trend</strong>
+            <p>SSA average electricity access increased from 23.9% (1990) to 51.5% (2023), a change of +27.6 percentage points.</p>
+        </div>
+        <div class="key-finding">
+            <strong>2. Income Group Differences</strong>
+            <p>Higher income countries have higher electricity access rates. Low income countries have median access of ~30%.</p>
+        </div>
+        <div class="key-finding">
+            <strong>3. Country Variation</strong>
+            <p>Wide variation exists: some countries have >95% access while others remain below 20%.</p>
+        </div>
+        <div class="key-finding">
+            <strong>4. Data Availability</strong>
+            <p>Data coverage improves over time. Some countries (Somalia, South Sudan, Mayotte) have significant data gaps.</p>
+        </div>
+
+        <h3>Data Limitations</h3>
+        <ul>
+            <li>Dataset contains only percentage values - no information on causes of changes</li>
+            <li>Some countries have missing data, especially before 2000</li>
+            <li>National averages may mask regional disparities within countries</li>
+        </ul>
+
+        <div class="footer">
+            <p><em>Data Source: World Bank World Development Indicators (EG.ELC.ACCS.ZS)</em></p>
+            <p><em>Analysis conducted using Python (pandas, matplotlib, seaborn)</em></p>
+        </div>
+    </div>
+</body>
+</html>

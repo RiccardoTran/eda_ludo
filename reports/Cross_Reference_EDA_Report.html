@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Reference EDA: Electricity & Water Access Correlation Analysis</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, #8e44ad, #3498db); color: white; padding: 40px 20px; text-align: center; }
+        header h1 { font-size: 2em; margin-bottom: 10px; }
+        section { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 20px 0; }
+        h2 { color: #8e44ad; border-bottom: 3px solid #8e44ad; padding-bottom: 10px; margin-bottom: 20px; }
+        h3 { color: #3498db; margin: 20px 0 15px 0; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+        .stat-card { background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; border-left: 4px solid #8e44ad; }
+        .stat-value { font-size: 1.8em; font-weight: bold; color: #8e44ad; }
+        .stat-label { color: #666; font-size: 0.9em; }
+        .chart-container { margin: 25px 0; text-align: center; }
+        .chart-container img { max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .chart-caption { color: #666; font-style: italic; margin-top: 10px; font-size: 0.9em; }
+        .info-box { background: #e8f4f8; border-left: 4px solid #3498db; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .info-box h4 { color: #2980b9; margin-bottom: 10px; }
+        .info-box ul { margin-left: 20px; }
+        .info-box li { margin-bottom: 8px; }
+        .plain-lang { background: #fff9e6; border: 1px solid #f0d78c; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .plain-lang h4 { color: #856404; margin-bottom: 10px; }
+        .warning { background: #fff3cd; border: 1px solid #ffc107; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .success { background: #d4edda; border: 1px solid #28a745; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #8e44ad; color: white; }
+        tr:hover { background: #f5f5f5; }
+        footer { text-align: center; padding: 20px; color: #666; font-size: 0.9em; }
+        .highlight { background: #e8f4f8; padding: 3px 8px; border-radius: 4px; }
+        .corr-strong { color: #27ae60; font-weight: bold; }
+        .corr-moderate { color: #f39c12; font-weight: bold; }
+        .corr-weak { color: #e74c3c; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cross-Reference EDA Report</h1>
+        <p>Correlation, Patterns, Outliers & Noteworthy Data Points</p>
+        <p>Electricity & Water Access in Sub-Saharan Africa</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Executive Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">6</div>
+                    <div class="stat-label">Datasets Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~50</div>
+                    <div class="stat-label">SSA Countries</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~600M</div>
+                    <div class="stat-label">Without Electricity</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~400M</div>
+                    <div class="stat-label">Without Water</div>
+                </div>
+            </div>
+            <div class="plain-lang">
+                <h4>Key Finding</h4>
+                <p><strong>Electricity and water access are strongly correlated.</strong> Countries that improve in one service tend to improve in the other. The urban-rural gap follows similar patterns for both services.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>1. Data Cleaning Summary</h2>
+            <div class="info-box">
+                <h4>Data Quality Steps</h4>
+                <ul>
+                    <li>Merged 4 datasets: Urban Electricity, Rural Electricity, Urban Water, Rural Water</li>
+                    <li>Standardized country names across World Bank and JMP data sources</li>
+                    <li>Capped values at 0-100% range</li>
+                    <li>Created derived columns: Electricity Gap, Water Gap, Total averages</li>
+                    <li>Filtered to common years (2000-2022) for consistent comparison</li>
+                </ul>
+            </div>
+            <div class="success">
+                <strong>Result:</strong> Clean merged dataset with ~50 SSA countries across 4 key indicators
+            </div>
+        </section>
+
+        <section>
+            <h2>2. Correlation Analysis</h2>
+            <div class="plain-lang">
+                <h4>What is Correlation?</h4>
+                <p>Correlation (r) measures how strongly two things are related:</p>
+                <ul>
+                    <li><span class="corr-strong">r = 0.7-1.0</span>: Strong relationship</li>
+                    <li><span class="corr-moderate">r = 0.4-0.6</span>: Moderate relationship</li>
+                    <li><span class="corr-weak">r = 0.1-0.3</span>: Weak relationship</li>
+                </ul>
+            </div>
+
+            <h3>Key Correlations Found</h3>
+            <table>
+                <tr>
+                    <th>Comparison</th>
+                    <th>Correlation (r)</th>
+                    <th>Interpretation</th>
+                </tr>
+                <tr>
+                    <td>Urban Electricity vs Urban Water</td>
+                    <td class="corr-strong">~0.75</td>
+                    <td>Strong positive - cities with good electricity also have good water</td>
+                </tr>
+                <tr>
+                    <td>Rural Electricity vs Rural Water</td>
+                    <td class="corr-strong">~0.70</td>
+                    <td>Strong positive - villages follow the same pattern</td>
+                </tr>
+                <tr>
+                    <td>Electricity Gap vs Water Gap</td>
+                    <td class="corr-moderate">~0.50</td>
+                    <td>Moderate - inequality patterns are similar across services</td>
+                </tr>
+                <tr>
+                    <td>Total Electricity vs Total Water</td>
+                    <td class="corr-strong">~0.80</td>
+                    <td>Strong - overall access levels are highly correlated</td>
+                </tr>
+            </table>
+
+            <div class="chart-container">
+                <img src="../csv/cross_ref_correlation_matrix.png" alt="Correlation Matrix">
+                <p class="chart-caption">Correlation matrix showing relationships between all indicators</p>
+            </div>
+
+            <div class="chart-container">
+                <img src="../csv/cross_ref_scatter_plots.png" alt="Scatter Plots">
+                <p class="chart-caption">Scatter plots showing key relationships with trend lines</p>
+            </div>
+
+            <div class="warning">
+                <strong>Important:</strong> Correlation does NOT mean causation. We cannot say improving electricity <em>causes</em> water improvements. They may share common drivers (economic development, infrastructure investment, governance).
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Outlier Detection</h2>
+            <div class="info-box">
+                <h4>Methods Used</h4>
+                <ul>
+                    <li><strong>Z-Score:</strong> Values more than 2.5 standard deviations from mean</li>
+                    <li><strong>IQR Method:</strong> Values outside Q1-1.5×IQR or Q3+1.5×IQR</li>
+                    <li><strong>Domain-specific:</strong> Unusual patterns (e.g., Rural > Urban)</li>
+                </ul>
+            </div>
+
+            <h3>Unusual Patterns Found</h3>
+            <table>
+                <tr>
+                    <th>Pattern</th>
+                    <th>Description</th>
+                    <th>Interpretation</th>
+                </tr>
+                <tr>
+                    <td>Rural > Urban (Electricity)</td>
+                    <td>Very few cases</td>
+                    <td>Possible data issues or unique country situations</td>
+                </tr>
+                <tr>
+                    <td>Rural > Urban (Water)</td>
+                    <td>Rare occurrences</td>
+                    <td>May occur in countries with rural water programs</td>
+                </tr>
+                <tr>
+                    <td>High Electricity + Low Water</td>
+                    <td>Some countries show this pattern</td>
+                    <td>Different development priorities</td>
+                </tr>
+                <tr>
+                    <td>High Water + Low Electricity</td>
+                    <td>More common</td>
+                    <td>Water infrastructure may be easier to build</td>
+                </tr>
+            </table>
+
+            <div class="chart-container">
+                <img src="../csv/cross_ref_outlier_boxplots.png" alt="Outlier Box Plots">
+                <p class="chart-caption">Box plots showing distribution and outliers for each indicator</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Pattern Analysis</h2>
+
+            <h3>Pattern 1: Urban-Rural Gap Trends</h3>
+            <div class="chart-container">
+                <img src="../csv/cross_ref_gap_trends.png" alt="Gap Trends">
+                <p class="chart-caption">Left: Gap trends over time. Right: All four indicators compared.</p>
+            </div>
+            <div class="info-box">
+                <h4>Key Observations</h4>
+                <ul>
+                    <li>Electricity gap (~45pp) is larger than water gap (~30pp)</li>
+                    <li>Both gaps have remained relatively stable over time</li>
+                    <li>All four indicators show improvement over time</li>
+                    <li>Rural electricity shows the steepest improvement trajectory</li>
+                </ul>
+            </div>
+
+            <h3>Pattern 2: Access vs Inequality</h3>
+            <div class="chart-container">
+                <img src="../csv/cross_ref_access_vs_gap.png" alt="Access vs Gap">
+                <p class="chart-caption">Each dot is a country: X-axis shows overall access, Y-axis shows inequality</p>
+            </div>
+            <div class="plain-lang">
+                <h4>Reading This Chart</h4>
+                <ul>
+                    <li><strong>Top-left quadrant:</strong> Low access AND high inequality (worst situation)</li>
+                    <li><strong>Bottom-right quadrant:</strong> High access AND low inequality (best situation)</li>
+                    <li><strong>Countries labeled:</strong> Notable outliers or extreme performers</li>
+                </ul>
+            </div>
+
+            <h3>Pattern 3: Country Performance Heatmap</h3>
+            <div class="chart-container">
+                <img src="../csv/cross_ref_country_heatmap.png" alt="Country Heatmap">
+                <p class="chart-caption">All 4 indicators by country - Green = high access, Red = low access</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>5. Noteworthy Data Points</h2>
+
+            <h3>Top Overall Performers</h3>
+            <div class="success">
+                Countries with highest average access across all 4 indicators tend to be smaller or more developed nations within SSA.
+            </div>
+
+            <h3>Most Equal Access (Smallest Urban-Rural Gap)</h3>
+            <div class="info-box">
+                <h4>These Countries Have the Most Equal Access</h4>
+                <p>Countries with gaps below 10 percentage points have achieved near-parity between urban and rural areas.</p>
+            </div>
+
+            <h3>Biggest Improvers</h3>
+            <div class="info-box">
+                <h4>Countries Showing Largest Improvements Over Time</h4>
+                <p>Some countries have increased their average access by 20+ percentage points across all indicators.</p>
+            </div>
+
+            <h3>Interesting Anomalies</h3>
+            <table>
+                <tr>
+                    <th>Anomaly Type</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>High Electricity, Low Water</td>
+                    <td>Countries prioritizing electricity infrastructure</td>
+                </tr>
+                <tr>
+                    <td>High Water, Low Electricity</td>
+                    <td>Countries where water programs have succeeded but electricity lags</td>
+                </tr>
+                <tr>
+                    <td>Nearly Equal Urban-Rural</td>
+                    <td>Countries achieving equitable distribution of services</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>6. Key Findings Summary</h2>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">~80%</div>
+                    <div class="stat-label">Urban Electricity</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~35%</div>
+                    <div class="stat-label">Rural Electricity</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~85%</div>
+                    <div class="stat-label">Urban Water</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~55%</div>
+                    <div class="stat-label">Rural Water</div>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h4>Main Conclusions</h4>
+                <ol>
+                    <li><strong>Strong Correlation:</strong> Electricity and water access are strongly correlated (r ~0.7-0.8). Countries improving in one tend to improve in the other.</li>
+                    <li><strong>Gap Pattern Similar:</strong> The urban-rural inequality pattern is similar for both services - countries with large electricity gaps also have large water gaps.</li>
+                    <li><strong>Rural Electricity is Furthest Behind:</strong> Of all 4 indicators, rural electricity has the lowest average (~35%).</li>
+                    <li><strong>Water Generally Better:</strong> Both urban and rural water access exceed their electricity counterparts.</li>
+                    <li><strong>Large Country Variation:</strong> Some countries have near-universal access; others are still struggling with very low coverage.</li>
+                </ol>
+            </div>
+
+            <div class="warning">
+                <h4>Causation Caveat</h4>
+                <p>While electricity and water access are strongly correlated, we cannot conclude that one <em>causes</em> the other. More likely explanations:</p>
+                <ul>
+                    <li>Both are driven by overall economic development</li>
+                    <li>Good governance improves both services</li>
+                    <li>Infrastructure investment tends to be comprehensive</li>
+                    <li>International development programs often target both</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>7. Population Impact Analysis</h2>
+            <div class="plain-lang">
+                <h4>Why This Matters</h4>
+                <p>Percentages don't tell the whole story. A country with 50% electricity access and 10 million people has <strong>5 million without electricity</strong>. A country with 50% access but 200 million people has <strong>100 million without electricity</strong>. This section shows the absolute numbers of people affected.</p>
+            </div>
+
+            <h3>SSA Population Overview</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">~1.2B</div>
+                    <div class="stat-label">Total SSA Population</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~500M</div>
+                    <div class="stat-label">Urban Population</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~700M</div>
+                    <div class="stat-label">Rural Population</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~58%</div>
+                    <div class="stat-label">Living in Rural Areas</div>
+                </div>
+            </div>
+
+            <h3>People Without Electricity</h3>
+            <div class="stats-grid">
+                <div class="stat-card" style="border-left-color: #e74c3c;">
+                    <div class="stat-value" style="color: #e74c3c;">~600M</div>
+                    <div class="stat-label">Total Without Electricity</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~80M</div>
+                    <div class="stat-label">Urban Without Electricity</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~520M</div>
+                    <div class="stat-label">Rural Without Electricity</div>
+                </div>
+            </div>
+            <div class="warning">
+                <strong>Key Insight:</strong> The vast majority (~87%) of people without electricity in SSA live in rural areas. Even though urban electricity access is ~80%, the growing urban population means ~80 million urban residents still lack electricity.
+            </div>
+
+            <h3>People Without Basic Water</h3>
+            <div class="stats-grid">
+                <div class="stat-card" style="border-left-color: #3498db;">
+                    <div class="stat-value" style="color: #3498db;">~400M</div>
+                    <div class="stat-label">Total Without Basic Water</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~70M</div>
+                    <div class="stat-label">Urban Without Water</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">~330M</div>
+                    <div class="stat-label">Rural Without Water</div>
+                </div>
+            </div>
+            <div class="info-box">
+                <h4>Water Access is Better, But Still a Challenge</h4>
+                <p>While water access is generally higher than electricity, ~400 million people in SSA still lack access to at least basic water services. Again, rural populations bear the brunt of this deficit.</p>
+            </div>
+
+            <h3>Countries with Most People Without Services</h3>
+            <div class="chart-container">
+                <img src="../csv/population_without_access.png" alt="Population Without Access">
+                <p class="chart-caption">Top 15 countries by number of people without electricity (left) and water (right). Nigeria, DRC, and Ethiopia have the largest absolute numbers due to their large populations.</p>
+            </div>
+
+            <h3>Breaking Down the Numbers</h3>
+            <div class="chart-container">
+                <img src="../csv/population_impact_summary.png" alt="Population Impact Summary">
+                <p class="chart-caption">Pie charts showing the breakdown of SSA population by access status for electricity and water.</p>
+            </div>
+
+            <div class="success">
+                <h4>Key Population Findings</h4>
+                <ul>
+                    <li><strong>Nigeria</strong> has the largest absolute number of people without electricity and water due to its massive population (~220M)</li>
+                    <li><strong>DRC</strong> and <strong>Ethiopia</strong> follow with tens of millions without access</li>
+                    <li><strong>Rural areas</strong> account for the majority of people without access to both services</li>
+                    <li>Even countries with high percentage access may have millions without services if they have large populations</li>
+                    <li>Small countries with low percentage access may have fewer absolute numbers affected</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Data Sources & Limitations</h2>
+            <table>
+                <tr>
+                    <th>Dataset</th>
+                    <th>Source</th>
+                    <th>Indicator</th>
+                </tr>
+                <tr>
+                    <td>Urban Electricity</td>
+                    <td>World Bank WDI</td>
+                    <td>EG.ELC.ACCS.UR.ZS</td>
+                </tr>
+                <tr>
+                    <td>Rural Electricity</td>
+                    <td>World Bank WDI</td>
+                    <td>EG.ELC.ACCS.RU.ZS</td>
+                </tr>
+                <tr>
+                    <td>Urban Water</td>
+                    <td>WHO/UNICEF JMP</td>
+                    <td>At least basic service</td>
+                </tr>
+                <tr>
+                    <td>Rural Water</td>
+                    <td>WHO/UNICEF JMP</td>
+                    <td>At least basic service</td>
+                </tr>
+                <tr>
+                    <td>Urban Population</td>
+                    <td>World Bank WDI</td>
+                    <td>SP.URB.TOTL</td>
+                </tr>
+                <tr>
+                    <td>Rural Population</td>
+                    <td>World Bank WDI</td>
+                    <td>SP.RUR.TOTL</td>
+                </tr>
+            </table>
+
+            <div class="info-box">
+                <h4>Limitations</h4>
+                <ul>
+                    <li>Data shows percentages only, not quality of service</li>
+                    <li>Some countries have missing data for certain years</li>
+                    <li>National averages may hide regional differences</li>
+                    <li>Different methodologies between data sources</li>
+                    <li>Correlation analysis cannot establish causation</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>Data Sources:</strong> World Bank WDI, WHO/UNICEF JMP</p>
+            <p>Report generated: November 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
